@@ -173,6 +173,12 @@
     <Compile Include="ModuloConvenios\TarifarioSegus\frmNuevoTarifarioSegus.Designer.cs">
       <DependentUpon>frmNuevoTarifarioSegus.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModuloFacturacion\frmListaFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloFacturacion\frmListaFactura.Designer.cs">
+      <DependentUpon>frmListaFactura.cs</DependentUpon>
+    </Compile>
     <Compile Include="ModuloSeguridad\Usuario\frmFiltroUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
