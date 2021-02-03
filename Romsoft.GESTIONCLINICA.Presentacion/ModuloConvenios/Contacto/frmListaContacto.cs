@@ -21,6 +21,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
     {
         public int intTipoConsulta = 0;
 
+        //Inicial
         public frmListaContacto()
         {
             InitializeComponent();

@@ -95,17 +95,53 @@
     <Compile Include="ModuloConvenios\CategoriaPago\frmNuevoCategoriaPago.Designer.cs">
       <DependentUpon>frmNuevoCategoriaPago.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModuloConvenios\Contacto\Form1.cs">
+    <Compile Include="ModuloConvenios\Contacto\frmFiltroContacto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModuloConvenios\Contacto\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ModuloConvenios\Contacto\frmFiltroContacto.designer.cs">
+      <DependentUpon>frmFiltroContacto.cs</DependentUpon>
     </Compile>
     <Compile Include="ModuloConvenios\Contacto\frmListaContacto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModuloConvenios\Contacto\frmListaContacto.Designer.cs">
+    <Compile Include="ModuloConvenios\Contacto\frmListaContacto.designer.cs">
       <DependentUpon>frmListaContacto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\Contacto\frmNuevoContacto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\Contacto\frmNuevoContacto.designer.cs">
+      <DependentUpon>frmNuevoContacto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmFiltroBeneficio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmFiltroBeneficio.designer.cs">
+      <DependentUpon>frmFiltroBeneficio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmFiltroPlanSeguro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmFiltroPlanSeguro.designer.cs">
+      <DependentUpon>frmFiltroPlanSeguro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmListaPlanSeguro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmListaPlanSeguro.designer.cs">
+      <DependentUpon>frmListaPlanSeguro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmNuevoPlanSeguro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmNuevoPlanSeguro.designer.cs">
+      <DependentUpon>frmNuevoPlanSeguro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmNuevoPlanSeguro1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloConvenios\PlanSeguro\frmNuevoPlanSeguro1.Designer.cs">
+      <DependentUpon>frmNuevoPlanSeguro1.cs</DependentUpon>
     </Compile>
     <Compile Include="ModuloConvenios\TarifarioSegus\frmFiltroCategoriaPago.cs">
       <SubType>Form</SubType>
@@ -199,8 +235,29 @@
     <EmbeddedResource Include="ModuloConvenios\CategoriaPago\frmNuevoCategoriaPago.resx">
       <DependentUpon>frmNuevoCategoriaPago.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\Contacto\frmFiltroContacto.resx">
+      <DependentUpon>frmFiltroContacto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ModuloConvenios\Contacto\frmListaContacto.resx">
       <DependentUpon>frmListaContacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\Contacto\frmNuevoContacto.resx">
+      <DependentUpon>frmNuevoContacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\PlanSeguro\frmFiltroBeneficio.resx">
+      <DependentUpon>frmFiltroBeneficio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\PlanSeguro\frmFiltroPlanSeguro.resx">
+      <DependentUpon>frmFiltroPlanSeguro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\PlanSeguro\frmListaPlanSeguro.resx">
+      <DependentUpon>frmListaPlanSeguro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\PlanSeguro\frmNuevoPlanSeguro.resx">
+      <DependentUpon>frmNuevoPlanSeguro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloConvenios\PlanSeguro\frmNuevoPlanSeguro1.resx">
+      <DependentUpon>frmNuevoPlanSeguro1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModuloConvenios\TarifarioSegus\frmFiltroCategoriaPago.resx">
       <DependentUpon>frmFiltroCategoriaPago.cs</DependentUpon>
@@ -244,6 +301,7 @@
     <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.ADM_OCUPACION.ADM_OCUPACIONDTO.datasource" />
     <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.CON_CONTACTO.CON_CONTACTODTO.datasource" />
     <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.CVN_CATEGORIA_PAGO.CVN_CATEGORIA_PAGODTO.datasource" />
+    <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.CVN_PLAN_SEGURO.CVN_PLAN_SEGURODTO.datasource" />
     <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.CVN_TARIFARIO_SEGUS.CVN_TARIFARIO_LISTADTO.datasource" />
     <None Include="Properties\DataSources\Romsoft.GESTIONCLINICA.DTO.TABLAS.SEG_USUARIO.SEG_USUARIODTO.datasource" />
     <None Include="Properties\Settings.settings">

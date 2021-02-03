@@ -80,7 +80,6 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.Utilities
 
 
         //Categoria Precios
-
         public static string WS_CVN_CATEGORIA_PAGO_PRECIO_Add = ConfigurationManager.AppSettings["WS_CVN_CATEGORIA_PAGO_PRECIO_Add"];
         public static string WS_CVN_CATEGORIA_PAGO_PRECIO_Delete = ConfigurationManager.AppSettings["WS_CVN_CATEGORIA_PAGO_PRECIO_Delete"];
         public static string WS_CVN_CATEGORIA_PAGO_PRECIO_GetAllActivesFilters = ConfigurationManager.AppSettings["WS_CVN_CATEGORIA_PAGO_PRECIO_GetAllActivesFilters"];
@@ -90,7 +89,32 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.Utilities
         public static string WS_CON_CONTACTO_Delete = ConfigurationManager.AppSettings["WS_CON_CONTACTO_Delete"];
         public static string WS_CON_CONTACTO_GetAllFilters = ConfigurationManager.AppSettings["WS_CON_CONTACTO_GetAllFilters"];
         public static string WS_CON_CONTACTO_GetById = ConfigurationManager.AppSettings["WS_CON_CONTACTO_GetById"];
+        public static string WS_CON_CONTACTO_GetAllActives = ConfigurationManager.AppSettings["WS_CON_CONTACTO_GetAllActives"];
+        public static string WS_CON_CONTACTO_Update = ConfigurationManager.AppSettings["WS_CON_CONTACTO_Update"];
 
+        // Plan Seguro
+        public static string WS_CVN_PLAN_SEGURO_Add = ConfigurationManager.AppSettings["WS_CVN_PLAN_SEGURO_Add"];
+        public static string WS_CVN_PLAN_SEGURO_GetAllFilters = ConfigurationManager.AppSettings["WS_CVN_PLAN_SEGURO_GetAllFilters"];
+        public static string WS_CVN_PLAN_SEGURO_GetById = ConfigurationManager.AppSettings["WS_CVN_PLAN_SEGURO_GetById"];
+        public static string WS_CVN_PLAN_SEGURO_GetAllActives = ConfigurationManager.AppSettings["WS_CVN_PLAN_SEGURO_GetAllActives"];
+        public static string WS_CVN_PLAN_SEGURO_Update = ConfigurationManager.AppSettings["WS_CVN_PLAN_SEGURO_Update"];
+
+        //CVN_PRODUCTO_PLAN/GetAllActivesFilters
+        public static string WS_CVN_PRODUCTO_PLAN_GetAllActivesFilters = ConfigurationManager.AppSettings["WS_CVN_PRODUCTO_PLAN_GetAllActivesFilters"];
+
+        //Beneficio
+        public static string WS_CVN_BENEFICIO_GetAllActives = ConfigurationManager.AppSettings["WS_CVN_BENEFICIO_GetAllActives"];
+
+        //Moneda
+        public static string WS_CVN_MONEDA_GetAllActives = ConfigurationManager.AppSettings["WS_CVN_MONEDA_GetAllActives"];
+
+        //
+        public static string WS_CVN_PLAN_SEGURO_DETALLE_GetAllActivesFilters = ConfigurationManager.AppSettings["WS_CVN_PLAN_SEGURO_DETALLE_GetAllActivesFilters"];
+        public static string WS_CVN_PLAN_SEGURO_DETALLE_Add = ConfigurationManager.AppSettings["WS_CVN_PLAN_SEGURO_DETALLE_Add"];
+        public static string WS_CVN_PLAN_SEGURO_DETALLE_Delete = ConfigurationManager.AppSettings["WS_CVN_PLAN_SEGURO_DETALLE_Delete"];
+
+        //TipoContacto
+        public static string WS_TipoContacto_GetAllActives = ConfigurationManager.AppSettings["WS_TipoContacto_GetAllActives"];
 
 
         #endregion

@@ -33,7 +33,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.btnFiltrar = new System.Windows.Forms.Button();
-            this.ETListaCtegoriaPagobindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.lblTituloUuario = new System.Windows.Forms.Label();
@@ -44,12 +43,13 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtsoles = new System.Windows.Forms.TextBox();
+            this.ETListaCtegoriaPagobindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.errValidator = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ETListaCtegoriaPagobindingSource)).BeginInit();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ETListaCtegoriaPagobindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errValidator)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -76,7 +76,7 @@
             this.btnCerrar.Location = new System.Drawing.Point(480, 75);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(109, 25);
-            this.btnCerrar.TabIndex = 81;
+            this.btnCerrar.TabIndex = 4;
             this.btnCerrar.Text = "   Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = false;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click_1);
@@ -88,14 +88,10 @@
             this.btnFiltrar.Location = new System.Drawing.Point(480, 44);
             this.btnFiltrar.Name = "btnFiltrar";
             this.btnFiltrar.Size = new System.Drawing.Size(109, 25);
-            this.btnFiltrar.TabIndex = 80;
+            this.btnFiltrar.TabIndex = 3;
             this.btnFiltrar.Text = "   Aceptar";
             this.btnFiltrar.UseVisualStyleBackColor = false;
             this.btnFiltrar.Click += new System.EventHandler(this.btnFiltrar_Click);
-            // 
-            // ETListaCtegoriaPagobindingSource
-            // 
-            this.ETListaCtegoriaPagobindingSource.DataSource = typeof(Romsoft.GESTIONCLINICA.DTO.TABLAS.CVN_CATEGORIA_PAGO.CVN_CATEGORIA_PAGODTO);
             // 
             // panel2
             // 
@@ -168,16 +164,17 @@
             this.cmbCatPago.Location = new System.Drawing.Point(6, 19);
             this.cmbCatPago.Name = "cmbCatPago";
             this.cmbCatPago.Size = new System.Drawing.Size(440, 21);
-            this.cmbCatPago.TabIndex = 88;
+            this.cmbCatPago.TabIndex = 0;
             // 
             // txtdolares
             // 
             this.txtdolares.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtdolares.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtdolares.Location = new System.Drawing.Point(274, 67);
+            this.txtdolares.MaxLength = 8;
             this.txtdolares.Name = "txtdolares";
             this.txtdolares.Size = new System.Drawing.Size(60, 20);
-            this.txtdolares.TabIndex = 86;
+            this.txtdolares.TabIndex = 2;
             this.txtdolares.Text = "0.00";
             this.txtdolares.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtdolares_KeyPress);
             // 
@@ -207,11 +204,16 @@
             this.txtsoles.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtsoles.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtsoles.Location = new System.Drawing.Point(138, 67);
+            this.txtsoles.MaxLength = 8;
             this.txtsoles.Name = "txtsoles";
             this.txtsoles.Size = new System.Drawing.Size(60, 20);
-            this.txtsoles.TabIndex = 84;
+            this.txtsoles.TabIndex = 1;
             this.txtsoles.Text = "0.00";
             this.txtsoles.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtsoles_KeyPress);
+            // 
+            // ETListaCtegoriaPagobindingSource
+            // 
+            this.ETListaCtegoriaPagobindingSource.DataSource = typeof(Romsoft.GESTIONCLINICA.DTO.TABLAS.CVN_CATEGORIA_PAGO.CVN_CATEGORIA_PAGODTO);
             // 
             // errValidator
             // 
@@ -233,11 +235,11 @@
             this.Text = "frmFiltroCategoriaPago";
             this.Load += new System.EventHandler(this.frmFiltroCategoriaPago_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.ETListaCtegoriaPagobindingSource)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ETListaCtegoriaPagobindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errValidator)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);

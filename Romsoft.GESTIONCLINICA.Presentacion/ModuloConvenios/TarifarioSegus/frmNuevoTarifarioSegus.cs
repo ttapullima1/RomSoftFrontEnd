@@ -51,7 +51,6 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.TarifarioSegus
 
             txtIdTarifa.Text = ComunFilter.f_id_tarifario_segus.ToString();
 
-            
 
             //ClearControls();
             CargarComboEstado();
@@ -443,7 +442,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.TarifarioSegus
             }
             else
             {
-                this.errValidator.SetError(this.cmbEstado, string.Empty);
+                this.errValidator.SetError(this.txtDescripcionEsp, string.Empty);
             }
 
             if (string.IsNullOrEmpty(this.cmbEstado.Text))
