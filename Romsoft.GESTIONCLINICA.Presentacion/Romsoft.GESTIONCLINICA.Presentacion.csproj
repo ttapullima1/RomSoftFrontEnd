@@ -418,6 +418,8 @@
     <Content Include="Resources\Archivos\Iconos\informe-medico.png" />
     <None Include="Resources\exportar.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ModuloContabilidad\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
