@@ -35,15 +35,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.btnFiltrar = new System.Windows.Forms.Button();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.dgvListaCatPago = new System.Windows.Forms.DataGridView();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnCerrar = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnNuevo = new System.Windows.Forms.Button();
-            this.ETContacto = new System.Windows.Forms.BindingSource(this.components);
-            this.ETCatPago = new System.Windows.Forms.BindingSource(this.components);
+            this.dgvListaContacto = new System.Windows.Forms.DataGridView();
             this.idcontactoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.codigotcDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -52,10 +44,18 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.temailffeeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.estadoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Edit = new System.Windows.Forms.DataGridViewImageColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvListaCatPago)).BeginInit();
+            this.ETContacto = new System.Windows.Forms.BindingSource(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.btnCerrar = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnNuevo = new System.Windows.Forms.Button();
+            this.ETCatPago = new System.Windows.Forms.BindingSource(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListaContacto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ETContacto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ETContacto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ETCatPago)).BeginInit();
             this.SuspendLayout();
             // 
@@ -63,6 +63,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // 
             this.dataGridViewImageColumn2.HeaderText = "Inactivo";
             this.dataGridViewImageColumn2.Image = global::Romsoft.GESTIONCLINICA.Presentacion.Properties.Resources.Eliminar2;
+            this.dataGridViewImageColumn2.MinimumWidth = 6;
             this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
             this.dataGridViewImageColumn2.ReadOnly = true;
             this.dataGridViewImageColumn2.ToolTipText = "Inactivo";
@@ -84,26 +85,28 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // 
             this.dataGridViewImageColumn1.HeaderText = "Edit";
             this.dataGridViewImageColumn1.Image = global::Romsoft.GESTIONCLINICA.Presentacion.Properties.Resources.Editar2;
+            this.dataGridViewImageColumn1.MinimumWidth = 6;
             this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
             this.dataGridViewImageColumn1.ReadOnly = true;
             this.dataGridViewImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewImageColumn1.ToolTipText = "Editar Registro";
             this.dataGridViewImageColumn1.Width = 33;
             // 
-            // dgvListaCatPago
+            // dgvListaContacto
             // 
-            this.dgvListaCatPago.AllowUserToAddRows = false;
-            this.dgvListaCatPago.AllowUserToDeleteRows = false;
+            this.dgvListaContacto.AllowUserToAddRows = false;
+            this.dgvListaContacto.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.dgvListaCatPago.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvListaCatPago.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.dgvListaContacto.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvListaContacto.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgvListaCatPago.AutoGenerateColumns = false;
-            this.dgvListaCatPago.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
-            this.dgvListaCatPago.ColumnHeadersHeight = 30;
-            this.dgvListaCatPago.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvListaContacto.AutoGenerateColumns = false;
+            this.dgvListaContacto.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dgvListaContacto.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.dgvListaContacto.ColumnHeadersHeight = 30;
+            this.dgvListaContacto.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.idcontactoDataGridViewTextBoxColumn,
             this.codigotcDataGridViewTextBoxColumn,
             this.dataGridViewTextBoxColumn1,
@@ -112,17 +115,97 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.temailffeeDataGridViewTextBoxColumn,
             this.estadoDataGridViewTextBoxColumn,
             this.Edit});
-            this.dgvListaCatPago.DataSource = this.ETContacto;
-            this.dgvListaCatPago.EnableHeadersVisualStyles = false;
-            this.dgvListaCatPago.Location = new System.Drawing.Point(6, 82);
-            this.dgvListaCatPago.MultiSelect = false;
-            this.dgvListaCatPago.Name = "dgvListaCatPago";
-            this.dgvListaCatPago.ReadOnly = true;
-            this.dgvListaCatPago.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvListaCatPago.Size = new System.Drawing.Size(903, 442);
-            this.dgvListaCatPago.TabIndex = 34;
-            this.dgvListaCatPago.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaCatPago_CellContentClick);
-            this.dgvListaCatPago.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgvListaCatPago_CellFormatting);
+            this.dgvListaContacto.DataSource = this.ETContacto;
+            this.dgvListaContacto.EnableHeadersVisualStyles = false;
+            this.dgvListaContacto.Location = new System.Drawing.Point(6, 82);
+            this.dgvListaContacto.MultiSelect = false;
+            this.dgvListaContacto.Name = "dgvListaContacto";
+            this.dgvListaContacto.ReadOnly = true;
+            this.dgvListaContacto.RowHeadersWidth = 51;
+            this.dgvListaContacto.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvListaContacto.Size = new System.Drawing.Size(903, 442);
+            this.dgvListaContacto.TabIndex = 34;
+            this.dgvListaContacto.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaContacto_CellContentClick);
+            this.dgvListaContacto.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgvListaContacto_CellFormatting);
+            // 
+            // idcontactoDataGridViewTextBoxColumn
+            // 
+            this.idcontactoDataGridViewTextBoxColumn.DataPropertyName = "id_contacto";
+            this.idcontactoDataGridViewTextBoxColumn.HeaderText = "Contacto";
+            this.idcontactoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.idcontactoDataGridViewTextBoxColumn.Name = "idcontactoDataGridViewTextBoxColumn";
+            this.idcontactoDataGridViewTextBoxColumn.ReadOnly = true;
+            this.idcontactoDataGridViewTextBoxColumn.Visible = false;
+            this.idcontactoDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // codigotcDataGridViewTextBoxColumn
+            // 
+            this.codigotcDataGridViewTextBoxColumn.DataPropertyName = "codigo_tc";
+            this.codigotcDataGridViewTextBoxColumn.HeaderText = "Tipo";
+            this.codigotcDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.codigotcDataGridViewTextBoxColumn.Name = "codigotcDataGridViewTextBoxColumn";
+            this.codigotcDataGridViewTextBoxColumn.ReadOnly = true;
+            this.codigotcDataGridViewTextBoxColumn.Width = 53;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "c_codigo";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Código";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Width = 65;
+            // 
+            // trazonsocialDataGridViewTextBoxColumn
+            // 
+            this.trazonsocialDataGridViewTextBoxColumn.DataPropertyName = "t_razon_social";
+            this.trazonsocialDataGridViewTextBoxColumn.HeaderText = "Razón Social";
+            this.trazonsocialDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.trazonsocialDataGridViewTextBoxColumn.Name = "trazonsocialDataGridViewTextBoxColumn";
+            this.trazonsocialDataGridViewTextBoxColumn.ReadOnly = true;
+            this.trazonsocialDataGridViewTextBoxColumn.Width = 95;
+            // 
+            // tcontactoDataGridViewTextBoxColumn
+            // 
+            this.tcontactoDataGridViewTextBoxColumn.DataPropertyName = "t_contacto";
+            this.tcontactoDataGridViewTextBoxColumn.HeaderText = "Contacto";
+            this.tcontactoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.tcontactoDataGridViewTextBoxColumn.Name = "tcontactoDataGridViewTextBoxColumn";
+            this.tcontactoDataGridViewTextBoxColumn.ReadOnly = true;
+            this.tcontactoDataGridViewTextBoxColumn.Width = 75;
+            // 
+            // temailffeeDataGridViewTextBoxColumn
+            // 
+            this.temailffeeDataGridViewTextBoxColumn.DataPropertyName = "t_email_ffee";
+            this.temailffeeDataGridViewTextBoxColumn.HeaderText = "Email";
+            this.temailffeeDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.temailffeeDataGridViewTextBoxColumn.Name = "temailffeeDataGridViewTextBoxColumn";
+            this.temailffeeDataGridViewTextBoxColumn.ReadOnly = true;
+            this.temailffeeDataGridViewTextBoxColumn.Width = 57;
+            // 
+            // estadoDataGridViewTextBoxColumn
+            // 
+            this.estadoDataGridViewTextBoxColumn.DataPropertyName = "estado";
+            this.estadoDataGridViewTextBoxColumn.HeaderText = "Estado";
+            this.estadoDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.estadoDataGridViewTextBoxColumn.Name = "estadoDataGridViewTextBoxColumn";
+            this.estadoDataGridViewTextBoxColumn.ReadOnly = true;
+            this.estadoDataGridViewTextBoxColumn.Width = 65;
+            // 
+            // Edit
+            // 
+            this.Edit.HeaderText = "Ver Detalle";
+            this.Edit.Image = global::Romsoft.GESTIONCLINICA.Presentacion.Properties.Resources.Editar2;
+            this.Edit.MinimumWidth = 6;
+            this.Edit.Name = "Edit";
+            this.Edit.ReadOnly = true;
+            this.Edit.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Edit.ToolTipText = "Editar Registro";
+            this.Edit.Width = 65;
+            // 
+            // ETContacto
+            // 
+            this.ETContacto.DataSource = typeof(Romsoft.GESTIONCLINICA.DTO.TABLAS.CON_CONTACTO.CON_CONTACTODTO);
             // 
             // label1
             // 
@@ -195,73 +278,9 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.btnNuevo.UseVisualStyleBackColor = false;
             this.btnNuevo.Click += new System.EventHandler(this.btnNuevo_Click);
             // 
-            // ETContacto
-            // 
-            this.ETContacto.DataSource = typeof(Romsoft.GESTIONCLINICA.DTO.TABLAS.CON_CONTACTO.CON_CONTACTODTO);
-            // 
             // ETCatPago
             // 
             this.ETCatPago.DataSource = typeof(Romsoft.GESTIONCLINICA.DTO.TABLAS.CVN_CATEGORIA_PAGO.CVN_CATEGORIA_PAGODTO);
-            // 
-            // idcontactoDataGridViewTextBoxColumn
-            // 
-            this.idcontactoDataGridViewTextBoxColumn.DataPropertyName = "id_contacto";
-            this.idcontactoDataGridViewTextBoxColumn.HeaderText = "Contacto";
-            this.idcontactoDataGridViewTextBoxColumn.Name = "idcontactoDataGridViewTextBoxColumn";
-            this.idcontactoDataGridViewTextBoxColumn.ReadOnly = true;
-            this.idcontactoDataGridViewTextBoxColumn.Visible = false;
-            // 
-            // codigotcDataGridViewTextBoxColumn
-            // 
-            this.codigotcDataGridViewTextBoxColumn.DataPropertyName = "codigo_tc";
-            this.codigotcDataGridViewTextBoxColumn.HeaderText = "Tipo";
-            this.codigotcDataGridViewTextBoxColumn.Name = "codigotcDataGridViewTextBoxColumn";
-            this.codigotcDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "c_codigo";
-            this.dataGridViewTextBoxColumn1.HeaderText = "Código";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // trazonsocialDataGridViewTextBoxColumn
-            // 
-            this.trazonsocialDataGridViewTextBoxColumn.DataPropertyName = "t_razon_social";
-            this.trazonsocialDataGridViewTextBoxColumn.HeaderText = "Razón Social";
-            this.trazonsocialDataGridViewTextBoxColumn.Name = "trazonsocialDataGridViewTextBoxColumn";
-            this.trazonsocialDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // tcontactoDataGridViewTextBoxColumn
-            // 
-            this.tcontactoDataGridViewTextBoxColumn.DataPropertyName = "t_contacto";
-            this.tcontactoDataGridViewTextBoxColumn.HeaderText = "Contacto";
-            this.tcontactoDataGridViewTextBoxColumn.Name = "tcontactoDataGridViewTextBoxColumn";
-            this.tcontactoDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // temailffeeDataGridViewTextBoxColumn
-            // 
-            this.temailffeeDataGridViewTextBoxColumn.DataPropertyName = "t_email_ffee";
-            this.temailffeeDataGridViewTextBoxColumn.HeaderText = "Email";
-            this.temailffeeDataGridViewTextBoxColumn.Name = "temailffeeDataGridViewTextBoxColumn";
-            this.temailffeeDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // estadoDataGridViewTextBoxColumn
-            // 
-            this.estadoDataGridViewTextBoxColumn.DataPropertyName = "estado";
-            this.estadoDataGridViewTextBoxColumn.HeaderText = "Estado";
-            this.estadoDataGridViewTextBoxColumn.Name = "estadoDataGridViewTextBoxColumn";
-            this.estadoDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // Edit
-            // 
-            this.Edit.HeaderText = "Ver Detalle";
-            this.Edit.Image = global::Romsoft.GESTIONCLINICA.Presentacion.Properties.Resources.Editar2;
-            this.Edit.Name = "Edit";
-            this.Edit.ReadOnly = true;
-            this.Edit.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Edit.ToolTipText = "Editar Registro";
-            this.Edit.Width = 65;
             // 
             // frmListaContacto
             // 
@@ -269,18 +288,18 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(913, 530);
             this.Controls.Add(this.btnFiltrar);
-            this.Controls.Add(this.dgvListaCatPago);
+            this.Controls.Add(this.dgvListaContacto);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnNuevo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmListaContacto";
             this.Text = "frmCategoriaPago";
             this.Load += new System.EventHandler(this.frmListaContacto_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvListaCatPago)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListaContacto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ETContacto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ETContacto)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ETCatPago)).EndInit();
             this.ResumeLayout(false);
 
@@ -291,7 +310,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn2;
         private System.Windows.Forms.Button btnFiltrar;
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
-        private System.Windows.Forms.DataGridView dgvListaCatPago;
+        private System.Windows.Forms.DataGridView dgvListaContacto;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.PictureBox pictureBox1;

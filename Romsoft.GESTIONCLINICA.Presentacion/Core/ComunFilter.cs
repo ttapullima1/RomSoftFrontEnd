@@ -43,6 +43,20 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.Core
         public static decimal cp_n_precio_sol { get; set; }
         public static decimal cp_n_precio_usd { get; set; }
         //Ctategoria Papgo
-        
+
+        //plan de seguro
+        public static int ps_id_plan_seguro { get; set; }
+
+        //DetallePlan Seguro
+        public static int ps_id_plan_seguro_detalle { get; set; }
+        public static string ps_codigo { get; set; }
+        public static string ps_beneficio { get; set; }
+        public static string ps_moneda { get; set; }
+        public static decimal ps_copago_fijo { get; set; }
+        public static decimal ps_copago_variable { get; set; }
+        public static decimal ps_copago_farmacia { get; set; }
+
+        // CONTACTO
+        public static int cp_id_contacto { get; set; }
     }
 }

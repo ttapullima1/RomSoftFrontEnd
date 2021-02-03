@@ -57,11 +57,9 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
                 //Muestra Todo por filtro
                 if (intTipoConsulta == 1)
                 {
-
-
                     var jsonResponse = new JsonResponse { Success = false };
 
-                    jsonResponse = InvokeHelper.MakeRequest(ConstantesWindows.WS_CVN_CATEGORIA_PAGO_GetAllFilters, GetContacto(), ConstantesWindows.METHODPOST);
+                    jsonResponse = InvokeHelper.MakeRequest(ConstantesWindows.WS_CON_CONTACTO_GetAllFilters, GetContacto(), ConstantesWindows.METHODPOST);
 
                     if (jsonResponse.Success && !jsonResponse.Warning)
                     {
@@ -105,7 +103,8 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
 
         private void btnFiltrar_Click(object sender, EventArgs e)
         {
-            CategoriaPago.frmFiltroCategoriaPago frm = new CategoriaPago.frmFiltroCategoriaPago();
+            Contacto.frmFiltroContacto frm = new Contacto.frmFiltroContacto();
+            
             if (frm.ShowDialog() == DialogResult.OK)
             {
                 // 1 = Consulta por filtro
@@ -118,17 +117,51 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             }
         }
 
-        private void dgvListaCatPago_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        /*private void dgvListaCatPago_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dgvListaCatPago.Rows.Count > 0)
+
+        }*/
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            ComunFilter.cp_id_contacto = 0;
+            Contacto.frmNuevoContacto frm = new Contacto.frmNuevoContacto();
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                // 0 = Consulta Todos
+                InitialLoad(0);
+            }
+        }
+
+        //cambia color columna Estado
+        /*private void dgvListaCatPago_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            DataGridView dgv = sender as DataGridView;
+
+            if (dgv.Columns[e.ColumnIndex].Name == "estadoDataGridViewTextBoxColumn")  //columna Esatado a evaluar
+            {
+                if (e.Value.ToString().Contains("Inactivo"))
+                {
+                    e.CellStyle.ForeColor = Color.Red;
+                }
+                if (e.Value.ToString().Contains("Activo"))
+                {
+                    e.CellStyle.ForeColor = Color.CornflowerBlue;
+                }
+            }
+        }*/
+
+        private void dgvListaContacto_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dgvListaContacto.Rows.Count > 0)
             {
 
                 // Editar
-                if (dgvListaCatPago.CurrentCell.ColumnIndex == 6)
+                if (dgvListaContacto.CurrentCell.ColumnIndex == 7)
                 {
-                    ComunFilter.cp_id_categoria_pago = Convert.ToInt32(dgvListaCatPago.CurrentRow.Cells[0].Value.ToString()); //id_categoria_pago
+                    ComunFilter.cp_id_contacto = Convert.ToInt32(dgvListaContacto.CurrentRow.Cells[0].Value.ToString()); // id_contacto
 
-                    CategoriaPago.frmNuevoCategoriaPago frm = new CategoriaPago.frmNuevoCategoriaPago();
+                    Contacto.frmNuevoContacto frm = new Contacto.frmNuevoContacto();
                     if (frm.ShowDialog() == DialogResult.OK)
                     {
                         // 0 = Consulta Todos
@@ -140,21 +173,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             }
         }
 
-        private void btnNuevo_Click(object sender, EventArgs e)
-        {
-            ComunFilter.cp_id_categoria_pago = 0;
-
-
-            CategoriaPago.frmNuevoCategoriaPago frm = new CategoriaPago.frmNuevoCategoriaPago();
-            if (frm.ShowDialog() == DialogResult.OK)
-            {
-                // 0 = Consulta Todos
-                InitialLoad(0);
-            }
-        }
-
-        //cambia color columna Estado
-        private void dgvListaCatPago_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        private void dgvListaContacto_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
             DataGridView dgv = sender as DataGridView;
 
