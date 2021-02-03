@@ -398,7 +398,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision
             this.txtCodigo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtCodigo.Location = new System.Drawing.Point(110, 19);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(87, 20);
+            this.txtCodigo.Size = new System.Drawing.Size(506, 20);
             this.txtCodigo.TabIndex = 0;
             // 
             // label1
