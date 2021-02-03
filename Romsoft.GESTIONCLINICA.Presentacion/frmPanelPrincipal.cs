@@ -187,5 +187,12 @@ namespace Romsoft.GESTIONCLINICA.Presentacion
             fm.FormClosed += new FormClosedEventHandler(MostrarFormLogoAlCerrarForms);
             AbrirFormEnPanel(fm);
         }
+
+        private void btnPlandeSeguro_Click(object sender, EventArgs e)
+        {
+            ModuloConvenios.PlanSeguro.frmListaPlanSeguro fm = new ModuloConvenios.PlanSeguro.frmListaPlanSeguro();
+            fm.FormClosed += new FormClosedEventHandler(MostrarFormLogoAlCerrarForms);
+            AbrirFormEnPanel(fm);
+        }
     }
 }

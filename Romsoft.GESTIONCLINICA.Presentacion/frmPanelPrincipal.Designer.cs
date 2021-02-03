@@ -72,7 +72,7 @@
             this.button14 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
+            this.btnPlandeSeguro = new System.Windows.Forms.Button();
             this.btnContactos = new System.Windows.Forms.Button();
             this.btnCategoriaPago = new System.Windows.Forms.Button();
             this.btnTarifarioSegus = new System.Windows.Forms.Button();
@@ -675,7 +675,7 @@
             // 
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.tabPage4.Controls.Add(this.button27);
-            this.tabPage4.Controls.Add(this.button28);
+            this.tabPage4.Controls.Add(this.btnPlandeSeguro);
             this.tabPage4.Controls.Add(this.btnContactos);
             this.tabPage4.Controls.Add(this.btnCategoriaPago);
             this.tabPage4.Controls.Add(this.btnTarifarioSegus);
@@ -702,22 +702,23 @@
             this.button27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button27.UseVisualStyleBackColor = false;
             // 
-            // button28
+            // btnPlandeSeguro
             // 
-            this.button28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.button28.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
-            this.button28.FlatAppearance.BorderSize = 0;
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.ForeColor = System.Drawing.Color.Gray;
-            this.button28.Image = ((System.Drawing.Image)(resources.GetObject("button28.Image")));
-            this.button28.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button28.Location = new System.Drawing.Point(5, 135);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(143, 33);
-            this.button28.TabIndex = 16;
-            this.button28.Text = "         Plan de Seguro";
-            this.button28.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button28.UseVisualStyleBackColor = false;
+            this.btnPlandeSeguro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.btnPlandeSeguro.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnPlandeSeguro.FlatAppearance.BorderSize = 0;
+            this.btnPlandeSeguro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPlandeSeguro.ForeColor = System.Drawing.Color.Gray;
+            this.btnPlandeSeguro.Image = ((System.Drawing.Image)(resources.GetObject("btnPlandeSeguro.Image")));
+            this.btnPlandeSeguro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPlandeSeguro.Location = new System.Drawing.Point(5, 135);
+            this.btnPlandeSeguro.Name = "btnPlandeSeguro";
+            this.btnPlandeSeguro.Size = new System.Drawing.Size(143, 33);
+            this.btnPlandeSeguro.TabIndex = 16;
+            this.btnPlandeSeguro.Text = "         Plan de Seguro";
+            this.btnPlandeSeguro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPlandeSeguro.UseVisualStyleBackColor = false;
+            this.btnPlandeSeguro.Click += new System.EventHandler(this.btnPlandeSeguro_Click);
             // 
             // btnContactos
             // 
@@ -1321,7 +1322,7 @@
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button btnTablasOcupacion;
         private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button btnPlandeSeguro;
         private System.Windows.Forms.Button btnContactos;
         private System.Windows.Forms.Button btnCategoriaPago;
         private System.Windows.Forms.Label label3;
