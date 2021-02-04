@@ -1,5 +1,5 @@
 ﻿
-namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Petitorio
+namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision.Profesional
 {
     partial class frmFiltroProfesional
     {

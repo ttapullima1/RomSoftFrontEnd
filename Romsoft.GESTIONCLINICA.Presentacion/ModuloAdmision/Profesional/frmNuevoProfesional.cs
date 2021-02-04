@@ -21,7 +21,7 @@ using Newtonsoft.Json;
 using Romsoft.GESTIONCLINICA.Presentacion.Helpers;
 using Romsoft.GESTIONCLINICA.Presentacion.Core;
 
-namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Petitorio
+namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision.Profesional
 {
     public partial class frmNuevoProfesional : Form
     {

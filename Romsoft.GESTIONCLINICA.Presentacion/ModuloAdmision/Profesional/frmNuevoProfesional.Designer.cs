@@ -1,5 +1,5 @@
 ﻿
-namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Petitorio
+namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision.Profesional
 {
     partial class frmNuevoProfesional
     {
@@ -171,7 +171,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Petitorio
             // 
             // panel2
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.lblTituloUuario);

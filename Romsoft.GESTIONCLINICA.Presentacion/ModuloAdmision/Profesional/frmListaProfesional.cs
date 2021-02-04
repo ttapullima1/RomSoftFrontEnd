@@ -15,7 +15,7 @@ using Newtonsoft.Json;
 using Romsoft.GESTIONCLINICA.Presentacion.Helpers;
 using Romsoft.GESTIONCLINICA.Presentacion.Core;
 
-namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Petitorio
+namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision.Profesional
 {
     public partial class frmListaProfesional : Form
     {
@@ -106,7 +106,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Petitorio
         private void btnFiltrar_Click(object sender, EventArgs e)
         {
           
-            Petitorio.frmFiltroProfesional frm = new Petitorio.frmFiltroProfesional();
+            Profesional.frmFiltroProfesional frm = new Profesional.frmFiltroProfesional();
             if (frm.ShowDialog() == DialogResult.OK)
             {
                 // 1 = Consulta por filtro
@@ -145,7 +145,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Petitorio
         {
             ComunFilter.profesional_id= 0;
 
-            Petitorio.frmNuevoProfesional frm = new Petitorio.frmNuevoProfesional();
+            Profesional.frmNuevoProfesional frm = new Profesional.frmNuevoProfesional();
             //CategoriaPago.frmNuevoCategoriaPago frm = new CategoriaPago.frmNuevoCategoriaPago();
             if (frm.ShowDialog() == DialogResult.OK)
             {
@@ -207,7 +207,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Petitorio
                     //ComunFilter.cp_id_categoria_pago = Convert.ToInt32(dgvListaProfesional.CurrentRow.Cells[0].Value.ToString()); //id_categoria_pago
                     ComunFilter.profesional_id = Convert.ToInt32(dgvListaProfesional.CurrentRow.Cells[0].Value.ToString());
                     //CategoriaPago.frmNuevoCategoriaPago frm = new CategoriaPago.frmNuevoCategoriaPago();
-                   Petitorio.frmNuevoProfesional frm = new Petitorio.frmNuevoProfesional();
+                   Profesional.frmNuevoProfesional frm = new Profesional.frmNuevoProfesional();
                     if (frm.ShowDialog() == DialogResult.OK)
                     {
                         // 0 = Consulta Todos

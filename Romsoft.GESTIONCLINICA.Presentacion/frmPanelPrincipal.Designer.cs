@@ -59,6 +59,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btnProfesional = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -71,7 +72,6 @@
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.button27 = new System.Windows.Forms.Button();
             this.btnPlandeSeguro = new System.Windows.Forms.Button();
             this.btnContactos = new System.Windows.Forms.Button();
             this.btnCategoriaPago = new System.Windows.Forms.Button();
@@ -476,6 +476,7 @@
             // tabPage2
             // 
             this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.tabPage2.Controls.Add(this.btnProfesional);
             this.tabPage2.Controls.Add(this.button5);
             this.tabPage2.Controls.Add(this.button6);
             this.tabPage2.Controls.Add(this.button3);
@@ -488,6 +489,24 @@
             this.tabPage2.Size = new System.Drawing.Size(151, 582);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Admision";
+            // 
+            // btnProfesional
+            // 
+            this.btnProfesional.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.btnProfesional.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnProfesional.FlatAppearance.BorderSize = 0;
+            this.btnProfesional.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProfesional.ForeColor = System.Drawing.Color.Gray;
+            this.btnProfesional.Image = ((System.Drawing.Image)(resources.GetObject("btnProfesional.Image")));
+            this.btnProfesional.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProfesional.Location = new System.Drawing.Point(1, 246);
+            this.btnProfesional.Name = "btnProfesional";
+            this.btnProfesional.Size = new System.Drawing.Size(144, 33);
+            this.btnProfesional.TabIndex = 14;
+            this.btnProfesional.Text = "         Profesional";
+            this.btnProfesional.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProfesional.UseVisualStyleBackColor = false;
+            this.btnProfesional.Click += new System.EventHandler(this.btnProfesional_Click);
             // 
             // button5
             // 
@@ -675,7 +694,6 @@
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.tabPage4.Controls.Add(this.button27);
             this.tabPage4.Controls.Add(this.btnPlandeSeguro);
             this.tabPage4.Controls.Add(this.btnContactos);
             this.tabPage4.Controls.Add(this.btnCategoriaPago);
@@ -685,23 +703,6 @@
             this.tabPage4.Size = new System.Drawing.Size(151, 582);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Convenios";
-            // 
-            // button27
-            // 
-            this.button27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.button27.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
-            this.button27.FlatAppearance.BorderSize = 0;
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.ForeColor = System.Drawing.Color.Gray;
-            this.button27.Image = ((System.Drawing.Image)(resources.GetObject("button27.Image")));
-            this.button27.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button27.Location = new System.Drawing.Point(5, 174);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(143, 33);
-            this.button27.TabIndex = 17;
-            this.button27.Text = "         Petitorio";
-            this.button27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button27.UseVisualStyleBackColor = false;
             // 
             // btnPlandeSeguro
             // 
@@ -1322,7 +1323,6 @@
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button btnTablasOcupacion;
-        private System.Windows.Forms.Button button27;
         private System.Windows.Forms.Button btnPlandeSeguro;
         private System.Windows.Forms.Button btnContactos;
         private System.Windows.Forms.Button btnCategoriaPago;
@@ -1330,5 +1330,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnProfesional;
     }
 }

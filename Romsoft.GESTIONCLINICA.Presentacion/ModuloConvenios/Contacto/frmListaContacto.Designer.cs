@@ -136,7 +136,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.idcontactoDataGridViewTextBoxColumn.Name = "idcontactoDataGridViewTextBoxColumn";
             this.idcontactoDataGridViewTextBoxColumn.ReadOnly = true;
             this.idcontactoDataGridViewTextBoxColumn.Visible = false;
-            this.idcontactoDataGridViewTextBoxColumn.Width = 125;
+            this.idcontactoDataGridViewTextBoxColumn.Width = 75;
             // 
             // codigotcDataGridViewTextBoxColumn
             // 

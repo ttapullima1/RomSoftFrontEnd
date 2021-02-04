@@ -3,7 +3,7 @@ using System;
 using System.Windows.Forms;
 
 
-namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Petitorio
+namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision.Profesional
 {
     public partial class frmFiltroProfesional : Form
     {

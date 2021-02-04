@@ -113,22 +113,22 @@
     <Compile Include="ModuloConvenios\Contacto\frmNuevoContacto.designer.cs">
       <DependentUpon>frmNuevoContacto.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModuloConvenios\Petitorio\frmFiltroProfesional.cs">
+    <Compile Include="ModuloAdmision\Profesional\frmFiltroProfesional.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModuloConvenios\Petitorio\frmFiltroProfesional.Designer.cs">
+    <Compile Include="ModuloAdmision\Profesional\frmFiltroProfesional.Designer.cs">
       <DependentUpon>frmFiltroProfesional.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModuloConvenios\Petitorio\frmListaProfesional.cs">
+    <Compile Include="ModuloAdmision\Profesional\frmListaProfesional.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModuloConvenios\Petitorio\frmListaProfesional.Designer.cs">
+    <Compile Include="ModuloAdmision\Profesional\frmListaProfesional.Designer.cs">
       <DependentUpon>frmListaProfesional.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModuloConvenios\Petitorio\frmNuevoProfesional.cs">
+    <Compile Include="ModuloAdmision\Profesional\frmNuevoProfesional.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModuloConvenios\Petitorio\frmNuevoProfesional.Designer.cs">
+    <Compile Include="ModuloAdmision\Profesional\frmNuevoProfesional.Designer.cs">
       <DependentUpon>frmNuevoProfesional.cs</DependentUpon>
     </Compile>
     <Compile Include="ModuloConvenios\PlanSeguro\frmFiltroBeneficio.cs">
@@ -268,13 +268,13 @@
     <EmbeddedResource Include="ModuloConvenios\Contacto\frmNuevoContacto.resx">
       <DependentUpon>frmNuevoContacto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModuloConvenios\Petitorio\frmFiltroProfesional.resx">
+    <EmbeddedResource Include="ModuloAdmision\Profesional\frmFiltroProfesional.resx">
       <DependentUpon>frmFiltroProfesional.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModuloConvenios\Petitorio\frmListaProfesional.resx">
+    <EmbeddedResource Include="ModuloAdmision\Profesional\frmListaProfesional.resx">
       <DependentUpon>frmListaProfesional.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ModuloConvenios\Petitorio\frmNuevoProfesional.resx">
+    <EmbeddedResource Include="ModuloAdmision\Profesional\frmNuevoProfesional.resx">
       <DependentUpon>frmNuevoProfesional.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModuloConvenios\PlanSeguro\frmFiltroBeneficio.resx">

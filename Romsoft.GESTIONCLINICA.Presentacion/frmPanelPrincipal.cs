@@ -195,9 +195,22 @@ namespace Romsoft.GESTIONCLINICA.Presentacion
             AbrirFormEnPanel(fm);
         }
 
+
         private void tabPage1_Click(object sender, EventArgs e)
         {
 
+        }
+        private void btnPetitorio_Click(object sender, EventArgs e)
+        {
+           
+
+        }
+
+        private void btnProfesional_Click(object sender, EventArgs e)
+        {
+            ModuloAdmision.Profesional.frmListaProfesional fm = new ModuloAdmision.Profesional.frmListaProfesional();
+            fm.FormClosed += new FormClosedEventHandler(MostrarFormLogoAlCerrarForms);
+            AbrirFormEnPanel(fm);
         }
     }
 }
