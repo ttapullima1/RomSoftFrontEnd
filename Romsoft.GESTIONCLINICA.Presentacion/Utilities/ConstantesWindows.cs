@@ -115,6 +115,24 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.Utilities
 
         //TipoContacto
         public static string WS_TipoContacto_GetAllActives = ConfigurationManager.AppSettings["WS_TipoContacto_GetAllActives"];
+        //Profesional
+        public static string WS_ADM_PROFESIONAL_Add = ConfigurationManager.AppSettings["WS_ADM_PROFESIONAL_Add"];
+        public static string WS_ADM_PROFESIONAL_Delete = ConfigurationManager.AppSettings["WS_ADM_PROFESIONAL_Delete"];
+        public static string WS_ADM_PROFESIONAL_GetAllFilters = ConfigurationManager.AppSettings["WS_ADM_PROFESIONAL_GetAllFilters"];
+        public static string WS_ADM_PROFESIONAL_GetById = ConfigurationManager.AppSettings["WS_ADM_PROFESIONAL_GetById"];
+        public static string WS_ADM_PROFESIONAL_Update = ConfigurationManager.AppSettings["WS_ADM_PROFESIONAL_Update"];
+        public static string WS_ADM_PROFESIONAL_GetAllActives = ConfigurationManager.AppSettings["WS_ADM_PROFESIONAL_GetAllActives"];
+
+        // <!--Genero-->
+        public static string WS_ADM_GENEROL_GetAllActives = ConfigurationManager.AppSettings["WS_ADM_GENEROL_GetAllActives"];
+        //    <!--Documento Identidad-->
+        public static string WS_ADM_DOCUMENTO_IDENTIDAD_GetAllActives = ConfigurationManager.AppSettings["WS_ADM_DOCUMENTO_IDENTIDAD_GetAllActives"];
+        //    <!--Especialidad-->
+        public static string WS_ADM_ESPECIALIDAD_GetAllActives = ConfigurationManager.AppSettings["WS_ADM_ESPECIALIDAD_GetAllActives"];
+        //    <!--Tipo Profesional-->
+        public static string WS_ADM_TIPO_PROFESIONAL_GetAllActives = ConfigurationManager.AppSettings["WS_ADM_TIPO_PROFESIONAL_GetAllActives"];
+        //    <!--Condicion Profesional-->
+        public static string WS_ADM_CONDICION_PROFESIONAL_GetAllActives = ConfigurationManager.AppSettings["WS_ADM_CONDICION_PROFESIONAL_GetAllActives"];
 
 
         #endregion

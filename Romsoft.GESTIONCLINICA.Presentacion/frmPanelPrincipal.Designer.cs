@@ -71,7 +71,7 @@
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.button27 = new System.Windows.Forms.Button();
+            this.btnPetitorio = new System.Windows.Forms.Button();
             this.btnPlandeSeguro = new System.Windows.Forms.Button();
             this.btnContactos = new System.Windows.Forms.Button();
             this.btnCategoriaPago = new System.Windows.Forms.Button();
@@ -674,7 +674,7 @@
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.tabPage4.Controls.Add(this.button27);
+            this.tabPage4.Controls.Add(this.btnPetitorio);
             this.tabPage4.Controls.Add(this.btnPlandeSeguro);
             this.tabPage4.Controls.Add(this.btnContactos);
             this.tabPage4.Controls.Add(this.btnCategoriaPago);
@@ -685,22 +685,23 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Convenios";
             // 
-            // button27
+            // btnPetitorio
             // 
-            this.button27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.button27.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
-            this.button27.FlatAppearance.BorderSize = 0;
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.ForeColor = System.Drawing.Color.Gray;
-            this.button27.Image = ((System.Drawing.Image)(resources.GetObject("button27.Image")));
-            this.button27.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button27.Location = new System.Drawing.Point(5, 174);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(143, 33);
-            this.button27.TabIndex = 17;
-            this.button27.Text = "         Petitorio";
-            this.button27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button27.UseVisualStyleBackColor = false;
+            this.btnPetitorio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.btnPetitorio.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnPetitorio.FlatAppearance.BorderSize = 0;
+            this.btnPetitorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPetitorio.ForeColor = System.Drawing.Color.Gray;
+            this.btnPetitorio.Image = ((System.Drawing.Image)(resources.GetObject("btnPetitorio.Image")));
+            this.btnPetitorio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPetitorio.Location = new System.Drawing.Point(5, 174);
+            this.btnPetitorio.Name = "btnPetitorio";
+            this.btnPetitorio.Size = new System.Drawing.Size(143, 33);
+            this.btnPetitorio.TabIndex = 17;
+            this.btnPetitorio.Text = "         Petitorio";
+            this.btnPetitorio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPetitorio.UseVisualStyleBackColor = false;
+            this.btnPetitorio.Click += new System.EventHandler(this.btnPetitorio_Click);
             // 
             // btnPlandeSeguro
             // 
@@ -1321,7 +1322,7 @@
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button btnTablasOcupacion;
-        private System.Windows.Forms.Button button27;
+        private System.Windows.Forms.Button btnPetitorio;
         private System.Windows.Forms.Button btnPlandeSeguro;
         private System.Windows.Forms.Button btnContactos;
         private System.Windows.Forms.Button btnCategoriaPago;
