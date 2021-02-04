@@ -58,5 +58,8 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.Core
 
         // CONTACTO
         public static int cp_id_contacto { get; set; }
+
+        //Profesion
+        public static int profesional_id { get; set; }
     }
 }
