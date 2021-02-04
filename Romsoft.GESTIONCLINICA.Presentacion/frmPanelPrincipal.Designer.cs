@@ -154,9 +154,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(87, 11);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(284, 13);
+            this.label2.Size = new System.Drawing.Size(312, 13);
             this.label2.TabIndex = 18;
-            this.label2.Text = "Licencia v6.0.1    .:: ROMSOFT ::.    CLÍNICA MACSALUD";
+            this.label2.Text = "Licencia v6.0.1    .:: ROMSOFT ::.    CLÍNICA DEMOSTRACIÓN";
             // 
             // menuStrip1
             // 
@@ -439,6 +439,7 @@
             this.tabPage1.Size = new System.Drawing.Size(151, 582);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Home";
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
             // label3
             // 
