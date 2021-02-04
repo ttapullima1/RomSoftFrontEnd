@@ -104,6 +104,8 @@
             this.btnRepositorioNormativa = new System.Windows.Forms.Button();
             this.btnPerfilUsuario = new System.Windows.Forms.Button();
             this.btnConfigUsuario = new System.Windows.Forms.Button();
+            this.btnBeneficio = new System.Windows.Forms.Button();
+            this.btnPetitorio = new System.Windows.Forms.Button();
             this.PanelBarraTitulo.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -694,6 +696,8 @@
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.tabPage4.Controls.Add(this.btnPetitorio);
+            this.tabPage4.Controls.Add(this.btnBeneficio);
             this.tabPage4.Controls.Add(this.btnPlandeSeguro);
             this.tabPage4.Controls.Add(this.btnContactos);
             this.tabPage4.Controls.Add(this.btnCategoriaPago);
@@ -1210,6 +1214,40 @@
             this.btnConfigUsuario.UseVisualStyleBackColor = false;
             this.btnConfigUsuario.Click += new System.EventHandler(this.btnConfigUsuario_Click_1);
             // 
+            // btnBeneficio
+            // 
+            this.btnBeneficio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.btnBeneficio.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnBeneficio.FlatAppearance.BorderSize = 0;
+            this.btnBeneficio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBeneficio.ForeColor = System.Drawing.Color.Gray;
+            this.btnBeneficio.Image = ((System.Drawing.Image)(resources.GetObject("btnBeneficio.Image")));
+            this.btnBeneficio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBeneficio.Location = new System.Drawing.Point(5, 174);
+            this.btnBeneficio.Name = "btnBeneficio";
+            this.btnBeneficio.Size = new System.Drawing.Size(143, 33);
+            this.btnBeneficio.TabIndex = 17;
+            this.btnBeneficio.Text = "         Beneficio";
+            this.btnBeneficio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBeneficio.UseVisualStyleBackColor = false;
+            // 
+            // btnPetitorio
+            // 
+            this.btnPetitorio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.btnPetitorio.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnPetitorio.FlatAppearance.BorderSize = 0;
+            this.btnPetitorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPetitorio.ForeColor = System.Drawing.Color.Gray;
+            this.btnPetitorio.Image = ((System.Drawing.Image)(resources.GetObject("btnPetitorio.Image")));
+            this.btnPetitorio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPetitorio.Location = new System.Drawing.Point(5, 213);
+            this.btnPetitorio.Name = "btnPetitorio";
+            this.btnPetitorio.Size = new System.Drawing.Size(143, 33);
+            this.btnPetitorio.TabIndex = 18;
+            this.btnPetitorio.Text = "         Petitorio";
+            this.btnPetitorio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPetitorio.UseVisualStyleBackColor = false;
+            // 
             // frmPanelPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1331,5 +1369,7 @@
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnProfesional;
+        private System.Windows.Forms.Button btnPetitorio;
+        private System.Windows.Forms.Button btnBeneficio;
     }
 }
