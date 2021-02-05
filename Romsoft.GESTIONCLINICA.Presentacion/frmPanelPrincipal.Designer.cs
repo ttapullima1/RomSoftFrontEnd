@@ -72,6 +72,8 @@
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.btnPetitorio = new System.Windows.Forms.Button();
+            this.btnBeneficio = new System.Windows.Forms.Button();
             this.btnPlandeSeguro = new System.Windows.Forms.Button();
             this.btnContactos = new System.Windows.Forms.Button();
             this.btnCategoriaPago = new System.Windows.Forms.Button();
@@ -104,8 +106,6 @@
             this.btnRepositorioNormativa = new System.Windows.Forms.Button();
             this.btnPerfilUsuario = new System.Windows.Forms.Button();
             this.btnConfigUsuario = new System.Windows.Forms.Button();
-            this.btnBeneficio = new System.Windows.Forms.Button();
-            this.btnPetitorio = new System.Windows.Forms.Button();
             this.PanelBarraTitulo.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -606,7 +606,7 @@
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.Location = new System.Drawing.Point(6, 17);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(160, 33);
+            this.button1.Size = new System.Drawing.Size(139, 33);
             this.button1.TabIndex = 8;
             this.button1.Text = "         Historias Clínica";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -707,6 +707,40 @@
             this.tabPage4.Size = new System.Drawing.Size(151, 582);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Convenios";
+            // 
+            // btnPetitorio
+            // 
+            this.btnPetitorio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.btnPetitorio.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnPetitorio.FlatAppearance.BorderSize = 0;
+            this.btnPetitorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPetitorio.ForeColor = System.Drawing.Color.Gray;
+            this.btnPetitorio.Image = ((System.Drawing.Image)(resources.GetObject("btnPetitorio.Image")));
+            this.btnPetitorio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPetitorio.Location = new System.Drawing.Point(5, 213);
+            this.btnPetitorio.Name = "btnPetitorio";
+            this.btnPetitorio.Size = new System.Drawing.Size(143, 33);
+            this.btnPetitorio.TabIndex = 18;
+            this.btnPetitorio.Text = "         Petitorio";
+            this.btnPetitorio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPetitorio.UseVisualStyleBackColor = false;
+            // 
+            // btnBeneficio
+            // 
+            this.btnBeneficio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.btnBeneficio.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.btnBeneficio.FlatAppearance.BorderSize = 0;
+            this.btnBeneficio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBeneficio.ForeColor = System.Drawing.Color.Gray;
+            this.btnBeneficio.Image = ((System.Drawing.Image)(resources.GetObject("btnBeneficio.Image")));
+            this.btnBeneficio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBeneficio.Location = new System.Drawing.Point(5, 174);
+            this.btnBeneficio.Name = "btnBeneficio";
+            this.btnBeneficio.Size = new System.Drawing.Size(143, 33);
+            this.btnBeneficio.TabIndex = 17;
+            this.btnBeneficio.Text = "         Beneficio";
+            this.btnBeneficio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBeneficio.UseVisualStyleBackColor = false;
             // 
             // btnPlandeSeguro
             // 
@@ -1213,40 +1247,6 @@
             this.btnConfigUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnConfigUsuario.UseVisualStyleBackColor = false;
             this.btnConfigUsuario.Click += new System.EventHandler(this.btnConfigUsuario_Click_1);
-            // 
-            // btnBeneficio
-            // 
-            this.btnBeneficio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.btnBeneficio.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
-            this.btnBeneficio.FlatAppearance.BorderSize = 0;
-            this.btnBeneficio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBeneficio.ForeColor = System.Drawing.Color.Gray;
-            this.btnBeneficio.Image = ((System.Drawing.Image)(resources.GetObject("btnBeneficio.Image")));
-            this.btnBeneficio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBeneficio.Location = new System.Drawing.Point(5, 174);
-            this.btnBeneficio.Name = "btnBeneficio";
-            this.btnBeneficio.Size = new System.Drawing.Size(143, 33);
-            this.btnBeneficio.TabIndex = 17;
-            this.btnBeneficio.Text = "         Beneficio";
-            this.btnBeneficio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBeneficio.UseVisualStyleBackColor = false;
-            // 
-            // btnPetitorio
-            // 
-            this.btnPetitorio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.btnPetitorio.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
-            this.btnPetitorio.FlatAppearance.BorderSize = 0;
-            this.btnPetitorio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPetitorio.ForeColor = System.Drawing.Color.Gray;
-            this.btnPetitorio.Image = ((System.Drawing.Image)(resources.GetObject("btnPetitorio.Image")));
-            this.btnPetitorio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPetitorio.Location = new System.Drawing.Point(5, 213);
-            this.btnPetitorio.Name = "btnPetitorio";
-            this.btnPetitorio.Size = new System.Drawing.Size(143, 33);
-            this.btnPetitorio.TabIndex = 18;
-            this.btnPetitorio.Text = "         Petitorio";
-            this.btnPetitorio.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPetitorio.UseVisualStyleBackColor = false;
             // 
             // frmPanelPrincipal
             // 
