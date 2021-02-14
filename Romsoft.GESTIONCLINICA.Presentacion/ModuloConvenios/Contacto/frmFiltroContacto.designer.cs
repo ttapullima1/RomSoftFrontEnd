@@ -59,16 +59,19 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(623, 119);
+            this.panel1.Size = new System.Drawing.Size(536, 158);
             this.panel1.TabIndex = 61;
             // 
             // btnCerrar
             // 
+            this.btnCerrar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrar.ForeColor = System.Drawing.Color.DimGray;
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
             this.btnCerrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCerrar.Location = new System.Drawing.Point(496, 75);
+            this.btnCerrar.Location = new System.Drawing.Point(416, 85);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(109, 25);
+            this.btnCerrar.Size = new System.Drawing.Size(115, 25);
             this.btnCerrar.TabIndex = 2;
             this.btnCerrar.Text = "   Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = false;
@@ -76,11 +79,14 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // 
             // btnFiltrar
             // 
+            this.btnFiltrar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnFiltrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFiltrar.ForeColor = System.Drawing.Color.DimGray;
             this.btnFiltrar.Image = ((System.Drawing.Image)(resources.GetObject("btnFiltrar.Image")));
             this.btnFiltrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFiltrar.Location = new System.Drawing.Point(496, 44);
+            this.btnFiltrar.Location = new System.Drawing.Point(416, 54);
             this.btnFiltrar.Name = "btnFiltrar";
-            this.btnFiltrar.Size = new System.Drawing.Size(109, 25);
+            this.btnFiltrar.Size = new System.Drawing.Size(115, 25);
             this.btnFiltrar.TabIndex = 1;
             this.btnFiltrar.Text = "   Buscar";
             this.btnFiltrar.UseVisualStyleBackColor = false;
@@ -91,7 +97,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.txtDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescripcion.Location = new System.Drawing.Point(11, 58);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(457, 21);
+            this.txtDescripcion.Size = new System.Drawing.Size(385, 21);
             this.txtDescripcion.TabIndex = 0;
             this.txtDescripcion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDescripcion_KeyPress);
             // 
@@ -100,10 +106,11 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.lblTituloUuario);
+            this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel2.Location = new System.Drawing.Point(1, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(621, 30);
+            this.panel2.Size = new System.Drawing.Size(534, 30);
             this.panel2.TabIndex = 65;
             // 
             // button1
@@ -114,7 +121,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(-338, 0);
+            this.button1.Location = new System.Drawing.Point(-425, 0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(21, 24);
             this.button1.TabIndex = 66;
@@ -123,32 +130,32 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // lblTituloUuario
             // 
             this.lblTituloUuario.AutoSize = true;
-            this.lblTituloUuario.BackColor = System.Drawing.Color.Transparent;
-            this.lblTituloUuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTituloUuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloUuario.ForeColor = System.Drawing.Color.Black;
             this.lblTituloUuario.Location = new System.Drawing.Point(5, 9);
             this.lblTituloUuario.Name = "lblTituloUuario";
-            this.lblTituloUuario.Size = new System.Drawing.Size(67, 13);
+            this.lblTituloUuario.Size = new System.Drawing.Size(63, 13);
             this.lblTituloUuario.TabIndex = 15;
-            this.lblTituloUuario.Text = ".:: Búsqueda";
+            this.lblTituloUuario.Text = "Búsqueda";
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.Location = new System.Drawing.Point(5, 38);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(485, 67);
+            this.groupBox1.Size = new System.Drawing.Size(397, 87);
             this.groupBox1.TabIndex = 83;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Parametros de búsqueda";
+            this.groupBox1.Text = "Parámetros de búsqueda";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.Gray;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.ForeColor = System.Drawing.Color.DimGray;
             this.label1.Location = new System.Drawing.Point(8, 47);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(438, 13);
+            this.label1.Size = new System.Drawing.Size(383, 37);
             this.label1.TabIndex = 82;
             this.label1.Text = "Ingrese un valor para realizar la búsqueda o filtro, este valor puede ser código " +
     "o descripción";
@@ -161,7 +168,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(623, 119);
+            this.ClientSize = new System.Drawing.Size(536, 158);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmFiltroContacto";
@@ -172,7 +179,6 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errValidator)).EndInit();
             this.ResumeLayout(false);
 

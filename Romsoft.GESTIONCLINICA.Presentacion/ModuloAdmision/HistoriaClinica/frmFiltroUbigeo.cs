@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
+namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision.HistoriaClinica
 {
-    public partial class frmNuevoPlanSeguro1 : Form
+    public partial class frmFiltroUbigeo : Form
     {
-        public frmNuevoPlanSeguro1()
+        public frmFiltroUbigeo()
         {
             InitializeComponent();
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

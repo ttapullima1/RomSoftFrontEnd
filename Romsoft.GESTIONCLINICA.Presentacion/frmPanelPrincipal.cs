@@ -21,10 +21,9 @@ namespace Romsoft.GESTIONCLINICA.Presentacion
 
         private void frmPanelPrincipal_Load(object sender, EventArgs e)
         {
-            //Fecha actual
-           lbFecha.Text= DateTime.Now.ToLongDateString();
+           
             //Posición del formulario
-            FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+           // FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             Left = Top = 0;
             Width = Screen.PrimaryScreen.WorkingArea.Width;
             Height = Screen.PrimaryScreen.WorkingArea.Height;
@@ -165,13 +164,6 @@ namespace Romsoft.GESTIONCLINICA.Presentacion
             ModuloConvenios.TarifarioSegus.frmListaTarifarioSegus fm = new ModuloConvenios.TarifarioSegus.frmListaTarifarioSegus();
             fm.FormClosed += new FormClosedEventHandler(MostrarFormLogoAlCerrarForms);
             AbrirFormEnPanel(fm);
-
-            //ModuloConvenios.TarifarioSegus.frmNuevoTarifarioSegus frm = new ModuloConvenios.TarifarioSegus.frmNuevoTarifarioSegus();
-            //if (frm.ShowDialog() == DialogResult.OK)
-            //{
-            //    // 0 = Consulta Todos
-            //    //InitialLoad(0);
-            //}
         }
 
         private void btnCategoriaPago_Click(object sender, EventArgs e)
@@ -209,6 +201,18 @@ namespace Romsoft.GESTIONCLINICA.Presentacion
         private void btnProfesional_Click(object sender, EventArgs e)
         {
             ModuloAdmision.Profesional.frmListaProfesional fm = new ModuloAdmision.Profesional.frmListaProfesional();
+            fm.FormClosed += new FormClosedEventHandler(MostrarFormLogoAlCerrarForms);
+            AbrirFormEnPanel(fm);
+        }
+
+        private void panelContenedorForm_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ModuloAdmision.HistoriaClinica.frmListaHistoriaClinica fm = new ModuloAdmision.HistoriaClinica.frmListaHistoriaClinica();
             fm.FormClosed += new FormClosedEventHandler(MostrarFormLogoAlCerrarForms);
             AbrirFormEnPanel(fm);
         }

@@ -37,50 +37,50 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
             this.panel4 = new System.Windows.Forms.Panel();
             this.label27 = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.txtDescripcion = new System.Windows.Forms.TextBox();
-            this.txtplanSegus = new System.Windows.Forms.TextBox();
-            this.txtObservacio = new System.Windows.Forms.TextBox();
-            this.label26 = new System.Windows.Forms.Label();
-            this.cmbGarante = new System.Windows.Forms.ComboBox();
-            this.cmbContratante = new System.Windows.Forms.ComboBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.cmbCategoriaPago = new System.Windows.Forms.ComboBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.txtCodPlan = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.txtCodPlan = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.cmbCategoriaPago = new System.Windows.Forms.ComboBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.cmbContratante = new System.Windows.Forms.ComboBox();
+            this.cmbGarante = new System.Windows.Forms.ComboBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.txtObservacio = new System.Windows.Forms.TextBox();
+            this.txtplanSegus = new System.Windows.Forms.TextBox();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.dtfechaDesde = new System.Windows.Forms.DateTimePicker();
-            this.dtFechahasta = new System.Windows.Forms.DateTimePicker();
-            this.label16 = new System.Windows.Forms.Label();
-            this.txtnumcontrato = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.txtnumCertificado = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.txtIafa = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
+            this.txtIafa = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.txtnumCertificado = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.txtnumcontrato = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.dtFechahasta = new System.Windows.Forms.DateTimePicker();
+            this.dtfechaDesde = new System.Windows.Forms.DateTimePicker();
             this.dgvListaDetalle = new System.Windows.Forms.DataGridView();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewImageColumn3 = new System.Windows.Forms.DataGridViewImageColumn();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.cmbEstad = new System.Windows.Forms.ComboBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.cmbProductoPlan = new System.Windows.Forms.ComboBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.dataGridViewImageColumn3 = new System.Windows.Forms.DataGridViewImageColumn();
             this.btnNuevoDetalle = new System.Windows.Forms.Button();
             this.btnCancela = new System.Windows.Forms.Button();
             this.btnGuarda = new System.Windows.Forms.Button();
+            this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)(this.errValidator)).BeginInit();
             this.panel4.SuspendLayout();
@@ -147,36 +147,110 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Datos del plan de seguro";
             // 
-            // txtDescripcion
+            // label30
             // 
-            this.txtDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDescripcion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtDescripcion.Location = new System.Drawing.Point(110, 136);
-            this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.Size = new System.Drawing.Size(387, 20);
-            this.txtDescripcion.TabIndex = 70;
+            this.label30.AutoSize = true;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.Gray;
+            this.label30.Location = new System.Drawing.Point(36, 162);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(67, 13);
+            this.label30.TabIndex = 84;
+            this.label30.Text = "Observación";
             // 
-            // txtplanSegus
+            // label29
             // 
-            this.txtplanSegus.Enabled = false;
-            this.txtplanSegus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtplanSegus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtplanSegus.Location = new System.Drawing.Point(110, 19);
-            this.txtplanSegus.Name = "txtplanSegus";
-            this.txtplanSegus.Size = new System.Drawing.Size(40, 20);
-            this.txtplanSegus.TabIndex = 63;
-            this.txtplanSegus.Text = "0";
-            this.txtplanSegus.Visible = false;
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.Gray;
+            this.label29.Location = new System.Drawing.Point(45, 139);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(63, 13);
+            this.label29.TabIndex = 83;
+            this.label29.Text = "Descripción";
             // 
-            // txtObservacio
+            // label22
             // 
-            this.txtObservacio.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtObservacio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtObservacio.Location = new System.Drawing.Point(110, 159);
-            this.txtObservacio.Multiline = true;
-            this.txtObservacio.Name = "txtObservacio";
-            this.txtObservacio.Size = new System.Drawing.Size(387, 61);
-            this.txtObservacio.TabIndex = 72;
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.Gray;
+            this.label22.Location = new System.Drawing.Point(44, 116);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(64, 13);
+            this.label22.TabIndex = 82;
+            this.label22.Text = "Código Plan";
+            // 
+            // txtCodPlan
+            // 
+            this.txtCodPlan.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCodPlan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtCodPlan.Location = new System.Drawing.Point(110, 113);
+            this.txtCodPlan.Name = "txtCodPlan";
+            this.txtCodPlan.Size = new System.Drawing.Size(111, 20);
+            this.txtCodPlan.TabIndex = 81;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.Gray;
+            this.label23.Location = new System.Drawing.Point(15, 92);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(94, 13);
+            this.label23.TabIndex = 78;
+            this.label23.Text = "Categoria de pago";
+            // 
+            // cmbCategoriaPago
+            // 
+            this.cmbCategoriaPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbCategoriaPago.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.cmbCategoriaPago.FormattingEnabled = true;
+            this.cmbCategoriaPago.Location = new System.Drawing.Point(110, 89);
+            this.cmbCategoriaPago.Name = "cmbCategoriaPago";
+            this.cmbCategoriaPago.Size = new System.Drawing.Size(172, 21);
+            this.cmbCategoriaPago.TabIndex = 77;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.Gray;
+            this.label24.Location = new System.Drawing.Point(46, 69);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(62, 13);
+            this.label24.TabIndex = 76;
+            this.label24.Text = "Contratante";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.ForeColor = System.Drawing.Color.Gray;
+            this.label25.Location = new System.Drawing.Point(63, 47);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(45, 13);
+            this.label25.TabIndex = 75;
+            this.label25.Text = "Garante";
+            // 
+            // cmbContratante
+            // 
+            this.cmbContratante.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbContratante.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.cmbContratante.FormattingEnabled = true;
+            this.cmbContratante.Location = new System.Drawing.Point(110, 65);
+            this.cmbContratante.Name = "cmbContratante";
+            this.cmbContratante.Size = new System.Drawing.Size(387, 21);
+            this.cmbContratante.TabIndex = 74;
+            // 
+            // cmbGarante
+            // 
+            this.cmbGarante.Font = new System.Drawing.Font("Bahnschrift Light Condensed", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbGarante.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.cmbGarante.FormattingEnabled = true;
+            this.cmbGarante.Location = new System.Drawing.Point(110, 41);
+            this.cmbGarante.Name = "cmbGarante";
+            this.cmbGarante.Size = new System.Drawing.Size(387, 21);
+            this.cmbGarante.TabIndex = 67;
             // 
             // label26
             // 
@@ -190,110 +264,36 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
             this.label26.Text = "Id";
             this.label26.Visible = false;
             // 
-            // cmbGarante
+            // txtObservacio
             // 
-            this.cmbGarante.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbGarante.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.cmbGarante.FormattingEnabled = true;
-            this.cmbGarante.Location = new System.Drawing.Point(110, 41);
-            this.cmbGarante.Name = "cmbGarante";
-            this.cmbGarante.Size = new System.Drawing.Size(387, 21);
-            this.cmbGarante.TabIndex = 67;
+            this.txtObservacio.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtObservacio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtObservacio.Location = new System.Drawing.Point(110, 159);
+            this.txtObservacio.Multiline = true;
+            this.txtObservacio.Name = "txtObservacio";
+            this.txtObservacio.Size = new System.Drawing.Size(387, 61);
+            this.txtObservacio.TabIndex = 72;
             // 
-            // cmbContratante
+            // txtplanSegus
             // 
-            this.cmbContratante.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbContratante.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.cmbContratante.FormattingEnabled = true;
-            this.cmbContratante.Location = new System.Drawing.Point(110, 65);
-            this.cmbContratante.Name = "cmbContratante";
-            this.cmbContratante.Size = new System.Drawing.Size(387, 21);
-            this.cmbContratante.TabIndex = 74;
+            this.txtplanSegus.Enabled = false;
+            this.txtplanSegus.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtplanSegus.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtplanSegus.Location = new System.Drawing.Point(110, 19);
+            this.txtplanSegus.Name = "txtplanSegus";
+            this.txtplanSegus.Size = new System.Drawing.Size(40, 20);
+            this.txtplanSegus.TabIndex = 63;
+            this.txtplanSegus.Text = "0";
+            this.txtplanSegus.Visible = false;
             // 
-            // label25
+            // txtDescripcion
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.ForeColor = System.Drawing.Color.Gray;
-            this.label25.Location = new System.Drawing.Point(63, 47);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(45, 13);
-            this.label25.TabIndex = 75;
-            this.label25.Text = "Garante";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.Gray;
-            this.label24.Location = new System.Drawing.Point(46, 69);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(62, 13);
-            this.label24.TabIndex = 76;
-            this.label24.Text = "Contratante";
-            // 
-            // cmbCategoriaPago
-            // 
-            this.cmbCategoriaPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbCategoriaPago.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.cmbCategoriaPago.FormattingEnabled = true;
-            this.cmbCategoriaPago.Location = new System.Drawing.Point(110, 89);
-            this.cmbCategoriaPago.Name = "cmbCategoriaPago";
-            this.cmbCategoriaPago.Size = new System.Drawing.Size(172, 21);
-            this.cmbCategoriaPago.TabIndex = 77;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.ForeColor = System.Drawing.Color.Gray;
-            this.label23.Location = new System.Drawing.Point(15, 92);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(94, 13);
-            this.label23.TabIndex = 78;
-            this.label23.Text = "Categoria de pago";
-            // 
-            // txtCodPlan
-            // 
-            this.txtCodPlan.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodPlan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtCodPlan.Location = new System.Drawing.Point(110, 113);
-            this.txtCodPlan.Name = "txtCodPlan";
-            this.txtCodPlan.Size = new System.Drawing.Size(111, 20);
-            this.txtCodPlan.TabIndex = 81;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.Gray;
-            this.label22.Location = new System.Drawing.Point(44, 116);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(64, 13);
-            this.label22.TabIndex = 82;
-            this.label22.Text = "Código Plan";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.ForeColor = System.Drawing.Color.Gray;
-            this.label29.Location = new System.Drawing.Point(45, 139);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(63, 13);
-            this.label29.TabIndex = 83;
-            this.label29.Text = "Descripción";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.ForeColor = System.Drawing.Color.Gray;
-            this.label30.Location = new System.Drawing.Point(36, 162);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(67, 13);
-            this.label30.TabIndex = 84;
-            this.label30.Text = "Observación";
+            this.txtDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDescripcion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtDescripcion.Location = new System.Drawing.Point(110, 136);
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(387, 20);
+            this.txtDescripcion.TabIndex = 70;
             // 
             // groupBox8
             // 
@@ -315,72 +315,25 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Vigencia, Contrato";
             // 
-            // dtfechaDesde
+            // label28
             // 
-            this.dtfechaDesde.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtfechaDesde.Location = new System.Drawing.Point(102, 41);
-            this.dtfechaDesde.Name = "dtfechaDesde";
-            this.dtfechaDesde.Size = new System.Drawing.Size(221, 20);
-            this.dtfechaDesde.TabIndex = 83;
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.Gray;
+            this.label28.Location = new System.Drawing.Point(238, 90);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(30, 13);
+            this.label28.TabIndex = 89;
+            this.label28.Text = "IAFA";
             // 
-            // dtFechahasta
+            // txtIafa
             // 
-            this.dtFechahasta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtFechahasta.Location = new System.Drawing.Point(102, 64);
-            this.dtFechahasta.Name = "dtFechahasta";
-            this.dtFechahasta.Size = new System.Drawing.Size(221, 20);
-            this.dtFechahasta.TabIndex = 84;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.Gray;
-            this.label16.Location = new System.Drawing.Point(64, 47);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(38, 13);
-            this.label16.TabIndex = 81;
-            this.label16.Text = "Desde";
-            // 
-            // txtnumcontrato
-            // 
-            this.txtnumcontrato.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnumcontrato.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtnumcontrato.Location = new System.Drawing.Point(102, 87);
-            this.txtnumcontrato.Name = "txtnumcontrato";
-            this.txtnumcontrato.Size = new System.Drawing.Size(90, 20);
-            this.txtnumcontrato.TabIndex = 83;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Gray;
-            this.label15.Location = new System.Drawing.Point(65, 69);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(35, 13);
-            this.label15.TabIndex = 85;
-            this.label15.Text = "Hasta";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.Gray;
-            this.label14.Location = new System.Drawing.Point(14, 90);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(86, 13);
-            this.label14.TabIndex = 84;
-            this.label14.Text = "Número contrato";
-            // 
-            // txtnumCertificado
-            // 
-            this.txtnumCertificado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnumCertificado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtnumCertificado.Location = new System.Drawing.Point(102, 109);
-            this.txtnumCertificado.Name = "txtnumCertificado";
-            this.txtnumCertificado.Size = new System.Drawing.Size(90, 20);
-            this.txtnumCertificado.TabIndex = 86;
+            this.txtIafa.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIafa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtIafa.Location = new System.Drawing.Point(274, 87);
+            this.txtIafa.Name = "txtIafa";
+            this.txtIafa.Size = new System.Drawing.Size(49, 20);
+            this.txtIafa.TabIndex = 88;
             // 
             // label13
             // 
@@ -393,25 +346,72 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
             this.label13.TabIndex = 87;
             this.label13.Text = "Número certificado";
             // 
-            // txtIafa
+            // txtnumCertificado
             // 
-            this.txtIafa.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIafa.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtIafa.Location = new System.Drawing.Point(274, 87);
-            this.txtIafa.Name = "txtIafa";
-            this.txtIafa.Size = new System.Drawing.Size(49, 20);
-            this.txtIafa.TabIndex = 88;
+            this.txtnumCertificado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnumCertificado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtnumCertificado.Location = new System.Drawing.Point(102, 109);
+            this.txtnumCertificado.Name = "txtnumCertificado";
+            this.txtnumCertificado.Size = new System.Drawing.Size(90, 20);
+            this.txtnumCertificado.TabIndex = 86;
             // 
-            // label28
+            // label14
             // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.Gray;
-            this.label28.Location = new System.Drawing.Point(238, 90);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(30, 13);
-            this.label28.TabIndex = 89;
-            this.label28.Text = "IAFA";
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.Gray;
+            this.label14.Location = new System.Drawing.Point(14, 90);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(86, 13);
+            this.label14.TabIndex = 84;
+            this.label14.Text = "Número contrato";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.Gray;
+            this.label15.Location = new System.Drawing.Point(65, 69);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(35, 13);
+            this.label15.TabIndex = 85;
+            this.label15.Text = "Hasta";
+            // 
+            // txtnumcontrato
+            // 
+            this.txtnumcontrato.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnumcontrato.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtnumcontrato.Location = new System.Drawing.Point(102, 87);
+            this.txtnumcontrato.Name = "txtnumcontrato";
+            this.txtnumcontrato.Size = new System.Drawing.Size(90, 20);
+            this.txtnumcontrato.TabIndex = 83;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.Gray;
+            this.label16.Location = new System.Drawing.Point(64, 47);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(38, 13);
+            this.label16.TabIndex = 81;
+            this.label16.Text = "Desde";
+            // 
+            // dtFechahasta
+            // 
+            this.dtFechahasta.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtFechahasta.Location = new System.Drawing.Point(102, 64);
+            this.dtFechahasta.Name = "dtFechahasta";
+            this.dtFechahasta.Size = new System.Drawing.Size(221, 20);
+            this.dtFechahasta.TabIndex = 84;
+            // 
+            // dtfechaDesde
+            // 
+            this.dtfechaDesde.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtfechaDesde.Location = new System.Drawing.Point(102, 41);
+            this.dtfechaDesde.Name = "dtfechaDesde";
+            this.dtfechaDesde.Size = new System.Drawing.Size(221, 20);
+            this.dtfechaDesde.TabIndex = 83;
             // 
             // dgvListaDetalle
             // 
@@ -452,47 +452,13 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
             this.dgvListaDetalle.TabIndex = 80;
             this.dgvListaDetalle.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaDetalle_CellContentClick);
             // 
-            // Column5
+            // dataGridViewTextBoxColumn3
             // 
-            this.Column5.HeaderText = "Estado";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            this.Column5.Width = 65;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Copago Farmacia";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            this.Column2.Width = 115;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Copago Variable";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Width = 110;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.HeaderText = "Copago Fijo";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            this.dataGridViewTextBoxColumn7.Width = 88;
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.HeaderText = "Moneda";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.ReadOnly = true;
-            this.dataGridViewTextBoxColumn6.Width = 71;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.HeaderText = "Beneficio";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            this.dataGridViewTextBoxColumn5.Width = 76;
+            this.dataGridViewTextBoxColumn3.HeaderText = "id_codigo_etalle";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            this.dataGridViewTextBoxColumn3.Visible = false;
+            this.dataGridViewTextBoxColumn3.Width = 109;
             // 
             // dataGridViewTextBoxColumn4
             // 
@@ -502,13 +468,56 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
             this.dataGridViewTextBoxColumn4.Visible = false;
             this.dataGridViewTextBoxColumn4.Width = 65;
             // 
-            // dataGridViewTextBoxColumn3
+            // dataGridViewTextBoxColumn5
             // 
-            this.dataGridViewTextBoxColumn3.HeaderText = "id_codigo_etalle";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            this.dataGridViewTextBoxColumn3.Visible = false;
-            this.dataGridViewTextBoxColumn3.Width = 109;
+            this.dataGridViewTextBoxColumn5.HeaderText = "Beneficio";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            this.dataGridViewTextBoxColumn5.Width = 76;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.HeaderText = "Moneda";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            this.dataGridViewTextBoxColumn6.Width = 71;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.HeaderText = "Copago Fijo";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            this.dataGridViewTextBoxColumn7.Width = 88;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Copago Variable";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Width = 110;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Copago Farmacia";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Width = 115;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Estado";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            this.Column5.Width = 65;
+            // 
+            // dataGridViewImageColumn3
+            // 
+            this.dataGridViewImageColumn3.HeaderText = "Quitar";
+            this.dataGridViewImageColumn3.Image = global::Romsoft.GESTIONCLINICA.Presentacion.Properties.Resources.Eliminar2;
+            this.dataGridViewImageColumn3.Name = "dataGridViewImageColumn3";
+            this.dataGridViewImageColumn3.ReadOnly = true;
+            this.dataGridViewImageColumn3.ToolTipText = "Eliminar";
+            this.dataGridViewImageColumn3.Width = 41;
             // 
             // groupBox7
             // 
@@ -571,24 +580,6 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
             this.panel3.Size = new System.Drawing.Size(854, 487);
             this.panel3.TabIndex = 82;
             // 
-            // dataGridViewImageColumn1
-            // 
-            this.dataGridViewImageColumn1.HeaderText = "Quitar";
-            this.dataGridViewImageColumn1.Image = global::Romsoft.GESTIONCLINICA.Presentacion.Properties.Resources.Eliminar2;
-            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
-            this.dataGridViewImageColumn1.ReadOnly = true;
-            this.dataGridViewImageColumn1.ToolTipText = "Eliminar";
-            this.dataGridViewImageColumn1.Width = 41;
-            // 
-            // dataGridViewImageColumn3
-            // 
-            this.dataGridViewImageColumn3.HeaderText = "Quitar";
-            this.dataGridViewImageColumn3.Image = global::Romsoft.GESTIONCLINICA.Presentacion.Properties.Resources.Eliminar2;
-            this.dataGridViewImageColumn3.Name = "dataGridViewImageColumn3";
-            this.dataGridViewImageColumn3.ReadOnly = true;
-            this.dataGridViewImageColumn3.ToolTipText = "Eliminar";
-            this.dataGridViewImageColumn3.Width = 41;
-            // 
             // btnNuevoDetalle
             // 
             this.btnNuevoDetalle.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -646,6 +637,15 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
             this.btnGuarda.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnGuarda.UseVisualStyleBackColor = false;
             this.btnGuarda.Click += new System.EventHandler(this.btnGuarda_Click_1);
+            // 
+            // dataGridViewImageColumn1
+            // 
+            this.dataGridViewImageColumn1.HeaderText = "Quitar";
+            this.dataGridViewImageColumn1.Image = global::Romsoft.GESTIONCLINICA.Presentacion.Properties.Resources.Eliminar2;
+            this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
+            this.dataGridViewImageColumn1.ReadOnly = true;
+            this.dataGridViewImageColumn1.ToolTipText = "Eliminar";
+            this.dataGridViewImageColumn1.Width = 41;
             // 
             // dataGridViewImageColumn2
             // 

@@ -31,7 +31,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmListaPlanSeguro));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -63,7 +63,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnCerrar);
@@ -77,7 +77,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label2.Location = new System.Drawing.Point(35, 18);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(273, 13);
@@ -88,6 +88,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(33, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(164, 13);
@@ -120,6 +121,8 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
             // 
             // btnNuevo
             // 
+            this.btnNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNuevo.ForeColor = System.Drawing.Color.White;
             this.btnNuevo.Image = ((System.Drawing.Image)(resources.GetObject("btnNuevo.Image")));
             this.btnNuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNuevo.Location = new System.Drawing.Point(5, 51);
@@ -151,6 +154,8 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
             // 
             // btnFiltrar
             // 
+            this.btnFiltrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFiltrar.ForeColor = System.Drawing.Color.White;
             this.btnFiltrar.Image = ((System.Drawing.Image)(resources.GetObject("btnFiltrar.Image")));
             this.btnFiltrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnFiltrar.Location = new System.Drawing.Point(107, 51);
@@ -165,9 +170,9 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
             // 
             this.dgvListaCatPago.AllowUserToAddRows = false;
             this.dgvListaCatPago.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            this.dgvListaCatPago.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            this.dgvListaCatPago.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvListaCatPago.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -278,6 +283,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.PlanSeguro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.ClientSize = new System.Drawing.Size(1057, 588);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnNuevo);

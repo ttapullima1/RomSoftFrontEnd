@@ -43,6 +43,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision.Profesional
             this.lblTituloUuario = new System.Windows.Forms.Label();
             this.errValidator = new System.Windows.Forms.ErrorProvider(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtProfesional = new System.Windows.Forms.TextBox();
             this.cmbEstado = new System.Windows.Forms.ComboBox();
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
@@ -77,7 +78,6 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision.Profesional
             this.btnGuardar = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.txtProfesional = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errValidator)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -171,7 +171,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision.Profesional
             // 
             // panel2
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.lblTituloUuario);
@@ -243,6 +243,15 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision.Profesional
             this.groupBox1.TabIndex = 62;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos del Profesional";
+            // 
+            // txtProfesional
+            // 
+            this.txtProfesional.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtProfesional.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtProfesional.Location = new System.Drawing.Point(124, 66);
+            this.txtProfesional.Name = "txtProfesional";
+            this.txtProfesional.Size = new System.Drawing.Size(481, 20);
+            this.txtProfesional.TabIndex = 3;
             // 
             // cmbEstado
             // 
@@ -458,6 +467,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision.Profesional
             this.cmbSexo.Name = "cmbSexo";
             this.cmbSexo.Size = new System.Drawing.Size(183, 21);
             this.cmbSexo.TabIndex = 6;
+            this.cmbSexo.SelectedIndexChanged += new System.EventHandler(this.cmbSexo_SelectedIndexChanged);
             // 
             // label14
             // 
@@ -553,6 +563,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision.Profesional
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(655, 444);
             this.panel1.TabIndex = 59;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // btnCancelar
             // 
@@ -604,15 +615,6 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision.Profesional
             this.dataGridViewImageColumn2.ReadOnly = true;
             this.dataGridViewImageColumn2.ToolTipText = "Eliminar";
             this.dataGridViewImageColumn2.Width = 41;
-            // 
-            // txtProfesional
-            // 
-            this.txtProfesional.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtProfesional.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtProfesional.Location = new System.Drawing.Point(124, 66);
-            this.txtProfesional.Name = "txtProfesional";
-            this.txtProfesional.Size = new System.Drawing.Size(481, 20);
-            this.txtProfesional.TabIndex = 3;
             // 
             // frmNuevoProfesional
             // 

@@ -176,14 +176,14 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             {
                 txtId.Text = "0";
                 this.estadoActual = EstadoActual.Nuevo;
-                lblTituloUuario.Text = "Nuevo Contacto";
+                lblTituloUuario.Text = "Agregar";
 
                 cmbEstado.Text = "";
             }
             else
             {
                 this.estadoActual = EstadoActual.Editar;
-                lblTituloUuario.Text = "Actualiza Datos Contacto";
+                lblTituloUuario.Text = "Modificar";
                 
                 GetDatosContacto();
             }
@@ -368,6 +368,11 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             {
                 e.Handled = true;
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

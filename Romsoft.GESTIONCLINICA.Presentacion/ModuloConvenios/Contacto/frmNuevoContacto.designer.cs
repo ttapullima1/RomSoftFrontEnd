@@ -31,18 +31,27 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNuevoContacto));
-            this.label9 = new System.Windows.Forms.Label();
-            this.TxtObservacion = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtCodigo = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
             this.TxtApellidos = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblTituloUuario = new System.Windows.Forms.Label();
             this.errValidator = new System.Windows.Forms.ErrorProvider(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.TxtDireccion = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.TxtRazonComercial = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.TxtRazonSocial = new System.Windows.Forms.TextBox();
+            this.TxtNombres = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.TxtCodigoSunat = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.CbTipoContacto = new System.Windows.Forms.ComboBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.TxtEMail = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -53,20 +62,8 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.TxtActividadEconomica = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.TxtContacto = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.TxtDireccion = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.TxtRazonComercial = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.TxtRazonSocial = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.TxtNombres = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.TxtCodigoSunat = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.CbTipoContacto = new System.Windows.Forms.ComboBox();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.ChkHabido = new System.Windows.Forms.CheckBox();
             this.ChkEsProveedor = new System.Windows.Forms.CheckBox();
             this.ChkEsContratante = new System.Windows.Forms.CheckBox();
@@ -79,52 +76,40 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.btnGuardar = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.TxtObservacion = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errValidator)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Gray;
-            this.label9.Location = new System.Drawing.Point(41, 122);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(67, 13);
-            this.label9.TabIndex = 73;
-            this.label9.Text = "Observación";
-            // 
-            // TxtObservacion
-            // 
-            this.TxtObservacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtObservacion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.TxtObservacion.Location = new System.Drawing.Point(110, 116);
-            this.TxtObservacion.Multiline = true;
-            this.TxtObservacion.Name = "TxtObservacion";
-            this.TxtObservacion.Size = new System.Drawing.Size(404, 61);
-            this.TxtObservacion.TabIndex = 2;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Gray;
-            this.label5.Location = new System.Drawing.Point(58, 46);
+            this.label5.ForeColor = System.Drawing.Color.DimGray;
+            this.label5.Location = new System.Drawing.Point(14, 109);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 13);
+            this.label5.Size = new System.Drawing.Size(97, 13);
             this.label5.TabIndex = 69;
-            this.label5.Text = "Apellidos";
+            this.label5.Text = "Apellidos, Nombres";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(32, 21);
+            this.label2.ForeColor = System.Drawing.Color.DimGray;
+            this.label2.Location = new System.Drawing.Point(38, 31);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 13);
             this.label2.TabIndex = 66;
@@ -133,30 +118,18 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // txtCodigo
             // 
             this.txtCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodigo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtCodigo.Location = new System.Drawing.Point(110, 19);
+            this.txtCodigo.ForeColor = System.Drawing.Color.Black;
+            this.txtCodigo.Location = new System.Drawing.Point(117, 80);
             this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(87, 20);
+            this.txtCodigo.Size = new System.Drawing.Size(153, 20);
             this.txtCodigo.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Gray;
-            this.label1.Location = new System.Drawing.Point(93, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(16, 13);
-            this.label1.TabIndex = 64;
-            this.label1.Text = "Id";
-            this.label1.Visible = false;
             // 
             // txtId
             // 
             this.txtId.Enabled = false;
             this.txtId.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtId.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtId.Location = new System.Drawing.Point(110, 19);
+            this.txtId.Location = new System.Drawing.Point(786, 3);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(40, 20);
             this.txtId.TabIndex = 63;
@@ -166,30 +139,32 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // TxtApellidos
             // 
             this.TxtApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtApellidos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.TxtApellidos.Location = new System.Drawing.Point(110, 43);
+            this.TxtApellidos.ForeColor = System.Drawing.Color.Black;
+            this.TxtApellidos.Location = new System.Drawing.Point(117, 106);
             this.TxtApellidos.Name = "TxtApellidos";
-            this.TxtApellidos.Size = new System.Drawing.Size(249, 20);
+            this.TxtApellidos.Size = new System.Drawing.Size(206, 20);
             this.TxtApellidos.TabIndex = 1;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.lblTituloUuario);
+            this.panel2.Controls.Add(this.txtId);
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel2.Location = new System.Drawing.Point(1, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(728, 28);
+            this.panel2.Size = new System.Drawing.Size(877, 28);
             this.panel2.TabIndex = 65;
             // 
             // lblTituloUuario
             // 
             this.lblTituloUuario.AutoSize = true;
             this.lblTituloUuario.BackColor = System.Drawing.Color.Transparent;
+            this.lblTituloUuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloUuario.ForeColor = System.Drawing.Color.Black;
-            this.lblTituloUuario.Location = new System.Drawing.Point(11, 8);
+            this.lblTituloUuario.Location = new System.Drawing.Point(7, 6);
             this.lblTituloUuario.Name = "lblTituloUuario";
-            this.lblTituloUuario.Size = new System.Drawing.Size(56, 13);
+            this.lblTituloUuario.Size = new System.Drawing.Size(67, 13);
             this.lblTituloUuario.TabIndex = 75;
             this.lblTituloUuario.Text = ".:: Agregar";
             // 
@@ -199,150 +174,36 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.groupBox1.Controls.Add(this.label15);
-            this.groupBox1.Controls.Add(this.TxtEMail);
-            this.groupBox1.Controls.Add(this.label14);
-            this.groupBox1.Controls.Add(this.TxtTelefono2);
-            this.groupBox1.Controls.Add(this.label13);
-            this.groupBox1.Controls.Add(this.TxtTelefono1);
-            this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.TxtActividadEconomica);
-            this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.TxtContacto);
+            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.TxtDireccion);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.TxtRazonComercial);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.TxtRazonSocial);
-            this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.TxtNombres);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.TxtCodigoSunat);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.CbTipoContacto);
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.TxtObservacion);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.txtCodigo);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.txtId);
             this.groupBox1.Controls.Add(this.TxtApellidos);
-            this.groupBox1.Location = new System.Drawing.Point(10, 44);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(11, 44);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(710, 314);
+            this.groupBox1.Size = new System.Drawing.Size(560, 260);
             this.groupBox1.TabIndex = 62;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Datos del Contacto";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Gray;
-            this.label15.Location = new System.Drawing.Point(76, 286);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(32, 13);
-            this.label15.TabIndex = 95;
-            this.label15.Text = "Email";
-            // 
-            // TxtEMail
-            // 
-            this.TxtEMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtEMail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.TxtEMail.Location = new System.Drawing.Point(110, 284);
-            this.TxtEMail.Name = "TxtEMail";
-            this.TxtEMail.Size = new System.Drawing.Size(404, 20);
-            this.TxtEMail.TabIndex = 94;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.Gray;
-            this.label14.Location = new System.Drawing.Point(212, 261);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(58, 13);
-            this.label14.TabIndex = 93;
-            this.label14.Text = "Telefono 2";
-            // 
-            // TxtTelefono2
-            // 
-            this.TxtTelefono2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtTelefono2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.TxtTelefono2.Location = new System.Drawing.Point(280, 258);
-            this.TxtTelefono2.Name = "TxtTelefono2";
-            this.TxtTelefono2.Size = new System.Drawing.Size(96, 20);
-            this.TxtTelefono2.TabIndex = 92;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Gray;
-            this.label13.Location = new System.Drawing.Point(50, 261);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(58, 13);
-            this.label13.TabIndex = 91;
-            this.label13.Text = "Telefono 1";
-            // 
-            // TxtTelefono1
-            // 
-            this.TxtTelefono1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtTelefono1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.TxtTelefono1.Location = new System.Drawing.Point(110, 258);
-            this.TxtTelefono1.Name = "TxtTelefono1";
-            this.TxtTelefono1.Size = new System.Drawing.Size(96, 20);
-            this.TxtTelefono1.TabIndex = 90;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Gray;
-            this.label12.Location = new System.Drawing.Point(2, 236);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(107, 13);
-            this.label12.TabIndex = 89;
-            this.label12.Text = "Actividad Económica";
-            // 
-            // TxtActividadEconomica
-            // 
-            this.TxtActividadEconomica.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtActividadEconomica.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.TxtActividadEconomica.Location = new System.Drawing.Point(110, 233);
-            this.TxtActividadEconomica.Name = "TxtActividadEconomica";
-            this.TxtActividadEconomica.Size = new System.Drawing.Size(404, 20);
-            this.TxtActividadEconomica.TabIndex = 88;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Gray;
-            this.label11.Location = new System.Drawing.Point(20, 210);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(89, 13);
-            this.label11.TabIndex = 87;
-            this.label11.Text = "Nombre contacto";
-            // 
-            // TxtContacto
-            // 
-            this.TxtContacto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtContacto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.TxtContacto.Location = new System.Drawing.Point(110, 208);
-            this.TxtContacto.Name = "TxtContacto";
-            this.TxtContacto.Size = new System.Drawing.Size(404, 20);
-            this.TxtContacto.TabIndex = 86;
+            this.groupBox1.Text = "Datos del contacto";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Gray;
-            this.label10.Location = new System.Drawing.Point(57, 185);
+            this.label10.ForeColor = System.Drawing.Color.DimGray;
+            this.label10.Location = new System.Drawing.Point(62, 186);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(52, 13);
             this.label10.TabIndex = 85;
@@ -351,78 +212,69 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // TxtDireccion
             // 
             this.TxtDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtDireccion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.TxtDireccion.Location = new System.Drawing.Point(110, 183);
+            this.TxtDireccion.ForeColor = System.Drawing.Color.Black;
+            this.TxtDireccion.Location = new System.Drawing.Point(117, 184);
+            this.TxtDireccion.Multiline = true;
             this.TxtDireccion.Name = "TxtDireccion";
-            this.TxtDireccion.Size = new System.Drawing.Size(404, 20);
+            this.TxtDireccion.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.TxtDireccion.Size = new System.Drawing.Size(437, 66);
             this.TxtDireccion.TabIndex = 84;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Gray;
-            this.label8.Location = new System.Drawing.Point(21, 93);
+            this.label8.ForeColor = System.Drawing.Color.DimGray;
+            this.label8.Location = new System.Drawing.Point(26, 161);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(87, 13);
             this.label8.TabIndex = 83;
-            this.label8.Text = "Razon Comercial";
+            this.label8.Text = "Razón Comercial";
             // 
             // TxtRazonComercial
             // 
             this.TxtRazonComercial.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtRazonComercial.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.TxtRazonComercial.Location = new System.Drawing.Point(110, 91);
+            this.TxtRazonComercial.ForeColor = System.Drawing.Color.Black;
+            this.TxtRazonComercial.Location = new System.Drawing.Point(117, 158);
             this.TxtRazonComercial.Name = "TxtRazonComercial";
-            this.TxtRazonComercial.Size = new System.Drawing.Size(328, 20);
+            this.TxtRazonComercial.Size = new System.Drawing.Size(437, 20);
             this.TxtRazonComercial.TabIndex = 82;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Gray;
-            this.label7.Location = new System.Drawing.Point(39, 71);
+            this.label7.ForeColor = System.Drawing.Color.DimGray;
+            this.label7.Location = new System.Drawing.Point(44, 135);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(70, 13);
             this.label7.TabIndex = 81;
-            this.label7.Text = "Razon Social";
+            this.label7.Text = "Razón Social";
             // 
             // TxtRazonSocial
             // 
             this.TxtRazonSocial.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtRazonSocial.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.TxtRazonSocial.Location = new System.Drawing.Point(110, 68);
+            this.TxtRazonSocial.ForeColor = System.Drawing.Color.Black;
+            this.TxtRazonSocial.Location = new System.Drawing.Point(117, 132);
             this.TxtRazonSocial.Name = "TxtRazonSocial";
-            this.TxtRazonSocial.Size = new System.Drawing.Size(328, 20);
+            this.TxtRazonSocial.Size = new System.Drawing.Size(437, 20);
             this.TxtRazonSocial.TabIndex = 80;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Gray;
-            this.label6.Location = new System.Drawing.Point(371, 46);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(49, 13);
-            this.label6.TabIndex = 79;
-            this.label6.Text = "Nombres";
             // 
             // TxtNombres
             // 
             this.TxtNombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNombres.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.TxtNombres.Location = new System.Drawing.Point(426, 44);
+            this.TxtNombres.ForeColor = System.Drawing.Color.Black;
+            this.TxtNombres.Location = new System.Drawing.Point(329, 106);
             this.TxtNombres.Name = "TxtNombres";
-            this.TxtNombres.Size = new System.Drawing.Size(251, 20);
+            this.TxtNombres.Size = new System.Drawing.Size(225, 20);
             this.TxtNombres.TabIndex = 78;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Gray;
-            this.label4.Location = new System.Drawing.Point(414, 21);
+            this.label4.ForeColor = System.Drawing.Color.DimGray;
+            this.label4.Location = new System.Drawing.Point(8, 83);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(106, 13);
             this.label4.TabIndex = 77;
@@ -430,9 +282,10 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // 
             // TxtCodigoSunat
             // 
+            this.TxtCodigoSunat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtCodigoSunat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCodigoSunat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.TxtCodigoSunat.Location = new System.Drawing.Point(524, 19);
+            this.TxtCodigoSunat.ForeColor = System.Drawing.Color.Black;
+            this.TxtCodigoSunat.Location = new System.Drawing.Point(117, 28);
             this.TxtCodigoSunat.Name = "TxtCodigoSunat";
             this.TxtCodigoSunat.Size = new System.Drawing.Size(153, 20);
             this.TxtCodigoSunat.TabIndex = 76;
@@ -441,8 +294,8 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Gray;
-            this.label3.Location = new System.Drawing.Point(206, 21);
+            this.label3.ForeColor = System.Drawing.Color.DimGray;
+            this.label3.Location = new System.Drawing.Point(41, 56);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 13);
             this.label3.TabIndex = 75;
@@ -450,16 +303,23 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // 
             // CbTipoContacto
             // 
+            this.CbTipoContacto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CbTipoContacto.ForeColor = System.Drawing.Color.Black;
             this.CbTipoContacto.FormattingEnabled = true;
-            this.CbTipoContacto.Location = new System.Drawing.Point(280, 18);
+            this.CbTipoContacto.Location = new System.Drawing.Point(117, 53);
             this.CbTipoContacto.Margin = new System.Windows.Forms.Padding(2);
             this.CbTipoContacto.Name = "CbTipoContacto";
-            this.CbTipoContacto.Size = new System.Drawing.Size(129, 21);
+            this.CbTipoContacto.Size = new System.Drawing.Size(153, 21);
             this.CbTipoContacto.TabIndex = 74;
             // 
             // panel1
             // 
+            this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(249)))), ((int)(((byte)(249)))));
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.groupBox6);
+            this.panel1.Controls.Add(this.groupBox5);
+            this.panel1.Controls.Add(this.groupBox3);
             this.panel1.Controls.Add(this.groupBox2);
             this.panel1.Controls.Add(this.groupBox4);
             this.panel1.Controls.Add(this.groupBox1);
@@ -469,30 +329,142 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(729, 492);
+            this.panel1.Size = new System.Drawing.Size(879, 514);
             this.panel1.TabIndex = 59;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.DimGray;
+            this.label15.Location = new System.Drawing.Point(83, 132);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(32, 13);
+            this.label15.TabIndex = 105;
+            this.label15.Text = "Email";
+            // 
+            // TxtEMail
+            // 
+            this.TxtEMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtEMail.ForeColor = System.Drawing.Color.Black;
+            this.TxtEMail.Location = new System.Drawing.Point(117, 129);
+            this.TxtEMail.Name = "TxtEMail";
+            this.TxtEMail.Size = new System.Drawing.Size(437, 20);
+            this.TxtEMail.TabIndex = 104;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.DimGray;
+            this.label14.Location = new System.Drawing.Point(57, 106);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(58, 13);
+            this.label14.TabIndex = 103;
+            this.label14.Text = "Telefono 2";
+            // 
+            // TxtTelefono2
+            // 
+            this.TxtTelefono2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtTelefono2.ForeColor = System.Drawing.Color.Black;
+            this.TxtTelefono2.Location = new System.Drawing.Point(117, 103);
+            this.TxtTelefono2.Name = "TxtTelefono2";
+            this.TxtTelefono2.Size = new System.Drawing.Size(116, 20);
+            this.TxtTelefono2.TabIndex = 102;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.DimGray;
+            this.label13.Location = new System.Drawing.Point(57, 80);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(58, 13);
+            this.label13.TabIndex = 101;
+            this.label13.Text = "Telefono 1";
+            // 
+            // TxtTelefono1
+            // 
+            this.TxtTelefono1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtTelefono1.ForeColor = System.Drawing.Color.Black;
+            this.TxtTelefono1.Location = new System.Drawing.Point(117, 77);
+            this.TxtTelefono1.Name = "TxtTelefono1";
+            this.TxtTelefono1.Size = new System.Drawing.Size(116, 20);
+            this.TxtTelefono1.TabIndex = 100;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.DimGray;
+            this.label12.Location = new System.Drawing.Point(7, 53);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(107, 13);
+            this.label12.TabIndex = 99;
+            this.label12.Text = "Actividad Económica";
+            // 
+            // TxtActividadEconomica
+            // 
+            this.TxtActividadEconomica.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtActividadEconomica.ForeColor = System.Drawing.Color.Black;
+            this.TxtActividadEconomica.Location = new System.Drawing.Point(117, 50);
+            this.TxtActividadEconomica.Name = "TxtActividadEconomica";
+            this.TxtActividadEconomica.Size = new System.Drawing.Size(437, 20);
+            this.TxtActividadEconomica.TabIndex = 98;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.DimGray;
+            this.label11.Location = new System.Drawing.Point(25, 27);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(89, 13);
+            this.label11.TabIndex = 97;
+            this.label11.Text = "Nombre contacto";
+            // 
+            // TxtContacto
+            // 
+            this.TxtContacto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtContacto.ForeColor = System.Drawing.Color.Black;
+            this.TxtContacto.Location = new System.Drawing.Point(117, 24);
+            this.TxtContacto.Name = "TxtContacto";
+            this.TxtContacto.Size = new System.Drawing.Size(437, 20);
+            this.TxtContacto.TabIndex = 96;
             // 
             // groupBox2
             // 
-            this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.groupBox2.Controls.Add(this.ChkHabido);
-            this.groupBox2.Controls.Add(this.ChkEsProveedor);
-            this.groupBox2.Controls.Add(this.ChkEsContratante);
-            this.groupBox2.Controls.Add(this.ChkEsGarante);
+            this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.TxtDiasCredito);
             this.groupBox2.Controls.Add(this.label17);
-            this.groupBox2.Location = new System.Drawing.Point(14, 364);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(577, 44);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(200, 125);
+            this.groupBox2.Size = new System.Drawing.Size(286, 100);
             this.groupBox2.TabIndex = 69;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Información Adicional ";
+            this.groupBox2.Text = "Forma de pago";
+            // 
+            // label6
+            // 
+            this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Gray;
+            this.label6.Location = new System.Drawing.Point(10, 24);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(264, 38);
+            this.label6.TabIndex = 81;
+            this.label6.Text = "Especifique el número de días para la estimación del vecimiento en los comprobant" +
+    "es emitidos.";
             // 
             // ChkHabido
             // 
             this.ChkHabido.AutoSize = true;
+            this.ChkHabido.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChkHabido.ForeColor = System.Drawing.Color.Gray;
-            this.ChkHabido.Location = new System.Drawing.Point(130, 92);
+            this.ChkHabido.Location = new System.Drawing.Point(10, 18);
             this.ChkHabido.Margin = new System.Windows.Forms.Padding(2);
             this.ChkHabido.Name = "ChkHabido";
             this.ChkHabido.Size = new System.Drawing.Size(60, 17);
@@ -503,8 +475,9 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // ChkEsProveedor
             // 
             this.ChkEsProveedor.AutoSize = true;
+            this.ChkEsProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChkEsProveedor.ForeColor = System.Drawing.Color.Gray;
-            this.ChkEsProveedor.Location = new System.Drawing.Point(14, 96);
+            this.ChkEsProveedor.Location = new System.Drawing.Point(27, 56);
             this.ChkEsProveedor.Margin = new System.Windows.Forms.Padding(2);
             this.ChkEsProveedor.Name = "ChkEsProveedor";
             this.ChkEsProveedor.Size = new System.Drawing.Size(90, 17);
@@ -515,8 +488,9 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // ChkEsContratante
             // 
             this.ChkEsContratante.AutoSize = true;
+            this.ChkEsContratante.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChkEsContratante.ForeColor = System.Drawing.Color.Gray;
-            this.ChkEsContratante.Location = new System.Drawing.Point(14, 74);
+            this.ChkEsContratante.Location = new System.Drawing.Point(141, 30);
             this.ChkEsContratante.Margin = new System.Windows.Forms.Padding(2);
             this.ChkEsContratante.Name = "ChkEsContratante";
             this.ChkEsContratante.Size = new System.Drawing.Size(96, 17);
@@ -527,8 +501,9 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // ChkEsGarante
             // 
             this.ChkEsGarante.AutoSize = true;
+            this.ChkEsGarante.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChkEsGarante.ForeColor = System.Drawing.Color.Gray;
-            this.ChkEsGarante.Location = new System.Drawing.Point(14, 52);
+            this.ChkEsGarante.Location = new System.Drawing.Point(27, 30);
             this.ChkEsGarante.Margin = new System.Windows.Forms.Padding(2);
             this.ChkEsGarante.Name = "ChkEsGarante";
             this.ChkEsGarante.Size = new System.Drawing.Size(79, 17);
@@ -540,7 +515,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // 
             this.TxtDiasCredito.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtDiasCredito.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.TxtDiasCredito.Location = new System.Drawing.Point(91, 20);
+            this.TxtDiasCredito.Location = new System.Drawing.Point(129, 68);
             this.TxtDiasCredito.MaxLength = 6;
             this.TxtDiasCredito.Name = "TxtDiasCredito";
             this.TxtDiasCredito.Size = new System.Drawing.Size(40, 20);
@@ -552,46 +527,51 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.Gray;
-            this.label17.Location = new System.Drawing.Point(11, 23);
+            this.label17.Location = new System.Drawing.Point(175, 71);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(63, 13);
+            this.label17.Size = new System.Drawing.Size(98, 13);
             this.label17.TabIndex = 74;
-            this.label17.Text = "Dias credito";
+            this.label17.Text = "Nro días de crédito";
             // 
             // groupBox4
             // 
-            this.groupBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.groupBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.groupBox4.Controls.Add(this.label9);
+            this.groupBox4.Controls.Add(this.label1);
             this.groupBox4.Controls.Add(this.cmbEstado);
-            this.groupBox4.Location = new System.Drawing.Point(586, 364);
+            this.groupBox4.Controls.Add(this.ChkHabido);
+            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Location = new System.Drawing.Point(577, 246);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(133, 58);
+            this.groupBox4.Size = new System.Drawing.Size(286, 58);
             this.groupBox4.TabIndex = 68;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Estado";
+            this.groupBox4.Text = "Otros";
             // 
             // cmbEstado
             // 
             this.cmbEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbEstado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.cmbEstado.FormattingEnabled = true;
-            this.cmbEstado.Location = new System.Drawing.Point(6, 25);
+            this.cmbEstado.Location = new System.Drawing.Point(178, 22);
             this.cmbEstado.Name = "cmbEstado";
-            this.cmbEstado.Size = new System.Drawing.Size(119, 21);
+            this.cmbEstado.Size = new System.Drawing.Size(96, 21);
             this.cmbEstado.TabIndex = 8;
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btnCancelar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Default;
-            this.btnCancelar.FlatAppearance.BorderSize = 0;
+            this.btnCancelar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnCancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelar.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.ForeColor = System.Drawing.Color.Black;
             this.btnCancelar.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelar.Image")));
             this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelar.Location = new System.Drawing.Point(604, 456);
+            this.btnCancelar.Location = new System.Drawing.Point(732, 479);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(108, 26);
+            this.btnCancelar.Size = new System.Drawing.Size(127, 30);
             this.btnCancelar.TabIndex = 10;
             this.btnCancelar.Text = "   Cancelar";
             this.btnCancelar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -600,17 +580,18 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             // 
             // btnGuardar
             // 
-            this.btnGuardar.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btnGuardar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnGuardar.Cursor = System.Windows.Forms.Cursors.Default;
-            this.btnGuardar.FlatAppearance.BorderSize = 0;
+            this.btnGuardar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btnGuardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGuardar.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardar.ForeColor = System.Drawing.Color.Black;
             this.btnGuardar.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardar.Image")));
             this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuardar.Location = new System.Drawing.Point(486, 456);
+            this.btnGuardar.Location = new System.Drawing.Point(587, 479);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(108, 26);
+            this.btnGuardar.Size = new System.Drawing.Size(127, 30);
             this.btnGuardar.TabIndex = 9;
             this.btnGuardar.Text = "   Guardar";
             this.btnGuardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -631,11 +612,92 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.dataGridViewImageColumn2.ToolTipText = "Eliminar";
             this.dataGridViewImageColumn2.Width = 41;
             // 
+            // groupBox3
+            // 
+            this.groupBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.groupBox3.Controls.Add(this.ChkEsGarante);
+            this.groupBox3.Controls.Add(this.ChkEsContratante);
+            this.groupBox3.Controls.Add(this.ChkEsProveedor);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Location = new System.Drawing.Point(577, 148);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(286, 94);
+            this.groupBox3.TabIndex = 82;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Tipo de contacto";
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.groupBox5.Controls.Add(this.label11);
+            this.groupBox5.Controls.Add(this.label15);
+            this.groupBox5.Controls.Add(this.TxtContacto);
+            this.groupBox5.Controls.Add(this.TxtEMail);
+            this.groupBox5.Controls.Add(this.TxtActividadEconomica);
+            this.groupBox5.Controls.Add(this.label14);
+            this.groupBox5.Controls.Add(this.label12);
+            this.groupBox5.Controls.Add(this.TxtTelefono2);
+            this.groupBox5.Controls.Add(this.TxtTelefono1);
+            this.groupBox5.Controls.Add(this.label13);
+            this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox5.Location = new System.Drawing.Point(11, 308);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(560, 161);
+            this.groupBox5.TabIndex = 106;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Datos adicionales";
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.groupBox6.Controls.Add(this.TxtObservacion);
+            this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox6.Location = new System.Drawing.Point(577, 308);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(286, 161);
+            this.groupBox6.TabIndex = 107;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "Observación";
+            // 
+            // TxtObservacion
+            // 
+            this.TxtObservacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtObservacion.ForeColor = System.Drawing.Color.Black;
+            this.TxtObservacion.Location = new System.Drawing.Point(6, 19);
+            this.TxtObservacion.Multiline = true;
+            this.TxtObservacion.Name = "TxtObservacion";
+            this.TxtObservacion.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.TxtObservacion.Size = new System.Drawing.Size(274, 130);
+            this.TxtObservacion.TabIndex = 108;
+            // 
+            // label1
+            // 
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Gray;
+            this.label1.Location = new System.Drawing.Point(7, 38);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(128, 17);
+            this.label1.TabIndex = 108;
+            this.label1.Text = "Estado contribuyente";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Gray;
+            this.label9.Location = new System.Drawing.Point(138, 26);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(40, 13);
+            this.label9.TabIndex = 109;
+            this.label9.Text = "Estado";
+            // 
             // frmNuevoContacto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(729, 492);
+            this.ClientSize = new System.Drawing.Size(879, 514);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmNuevoContacto";
@@ -652,17 +714,21 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.Label label9;
-        public System.Windows.Forms.TextBox TxtObservacion;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label2;
         public System.Windows.Forms.TextBox txtCodigo;
-        private System.Windows.Forms.Label label1;
         public System.Windows.Forms.TextBox txtId;
         public System.Windows.Forms.TextBox TxtApellidos;
         private System.Windows.Forms.Button btnCancelar;
@@ -676,22 +742,11 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.ComboBox cmbEstado;
-        private System.Windows.Forms.Label label6;
         public System.Windows.Forms.TextBox TxtNombres;
         private System.Windows.Forms.Label label4;
         public System.Windows.Forms.TextBox TxtCodigoSunat;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ComboBox CbTipoContacto;
-        private System.Windows.Forms.Label label15;
-        public System.Windows.Forms.TextBox TxtEMail;
-        private System.Windows.Forms.Label label14;
-        public System.Windows.Forms.TextBox TxtTelefono2;
-        private System.Windows.Forms.Label label13;
-        public System.Windows.Forms.TextBox TxtTelefono1;
-        private System.Windows.Forms.Label label12;
-        public System.Windows.Forms.TextBox TxtActividadEconomica;
-        private System.Windows.Forms.Label label11;
-        public System.Windows.Forms.TextBox TxtContacto;
         private System.Windows.Forms.Label label10;
         public System.Windows.Forms.TextBox TxtDireccion;
         private System.Windows.Forms.Label label8;
@@ -705,5 +760,22 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.Contacto
         private System.Windows.Forms.CheckBox ChkEsGarante;
         public System.Windows.Forms.TextBox TxtDiasCredito;
         private System.Windows.Forms.CheckBox ChkHabido;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label15;
+        public System.Windows.Forms.TextBox TxtEMail;
+        private System.Windows.Forms.Label label14;
+        public System.Windows.Forms.TextBox TxtTelefono2;
+        private System.Windows.Forms.Label label13;
+        public System.Windows.Forms.TextBox TxtTelefono1;
+        private System.Windows.Forms.Label label12;
+        public System.Windows.Forms.TextBox TxtActividadEconomica;
+        private System.Windows.Forms.Label label11;
+        public System.Windows.Forms.TextBox TxtContacto;
+        private System.Windows.Forms.GroupBox groupBox6;
+        public System.Windows.Forms.TextBox TxtObservacion;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label1;
     }
 }

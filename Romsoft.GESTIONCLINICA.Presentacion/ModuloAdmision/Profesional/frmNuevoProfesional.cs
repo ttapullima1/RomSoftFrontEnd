@@ -596,5 +596,15 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision.Profesional
                 }
             }
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void cmbSexo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
