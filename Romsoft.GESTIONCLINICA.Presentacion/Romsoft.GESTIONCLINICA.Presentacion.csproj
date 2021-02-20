@@ -89,11 +89,23 @@
     <Compile Include="ModuloAdmision\HistoriaClinica\frmFiltroCama.Designer.cs">
       <DependentUpon>frmFiltroCama.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmAutorizaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmAutorizaciones.Designer.cs">
+      <DependentUpon>frmAutorizaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="ModuloAdmision\HistoriaClinica\frmFiltroSiteds.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ModuloAdmision\HistoriaClinica\frmFiltroSiteds.Designer.cs">
       <DependentUpon>frmFiltroSiteds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmFiltroHistoriaClinica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuloAdmision\HistoriaClinica\frmFiltroHistoriaClinica.Designer.cs">
+      <DependentUpon>frmFiltroHistoriaClinica.cs</DependentUpon>
     </Compile>
     <Compile Include="ModuloAdmision\HistoriaClinica\frmFiltroUbigeo.cs">
       <SubType>Form</SubType>
@@ -221,11 +233,11 @@
     <Compile Include="ModuloConvenios\TarifarioSegus\frmNuevoTarifarioSegus.Designer.cs">
       <DependentUpon>frmNuevoTarifarioSegus.cs</DependentUpon>
     </Compile>
-    <Compile Include="ModuloFacturacion\frmListaFactura.cs">
+    <Compile Include="ModuloFacturacion\Prefacturacion\frmPrefacturacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ModuloFacturacion\frmListaFactura.Designer.cs">
-      <DependentUpon>frmListaFactura.cs</DependentUpon>
+    <Compile Include="ModuloFacturacion\Prefacturacion\frmPrefacturacion.Designer.cs">
+      <DependentUpon>frmPrefacturacion.cs</DependentUpon>
     </Compile>
     <Compile Include="ModuloSeguridad\Usuario\frmFiltroUsuario.cs">
       <SubType>Form</SubType>
@@ -286,8 +298,14 @@
     <EmbeddedResource Include="ModuloAdmision\HistoriaClinica\frmFiltroCama.resx">
       <DependentUpon>frmFiltroCama.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\HistoriaClinica\frmAutorizaciones.resx">
+      <DependentUpon>frmAutorizaciones.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ModuloAdmision\HistoriaClinica\frmFiltroSiteds.resx">
       <DependentUpon>frmFiltroSiteds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloAdmision\HistoriaClinica\frmFiltroHistoriaClinica.resx">
+      <DependentUpon>frmFiltroHistoriaClinica.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModuloAdmision\HistoriaClinica\frmFiltroUbigeo.resx">
       <DependentUpon>frmFiltroUbigeo.cs</DependentUpon>
@@ -351,6 +369,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ModuloConvenios\TarifarioSegus\frmNuevoTarifarioSegus.resx">
       <DependentUpon>frmNuevoTarifarioSegus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModuloFacturacion\Prefacturacion\frmPrefacturacion.resx">
+      <DependentUpon>frmPrefacturacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModuloSeguridad\Usuario\frmFiltroUsuario.resx">
       <DependentUpon>frmFiltroUsuario.cs</DependentUpon>
@@ -498,6 +519,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ModuloContabilidad\" />
+    <Folder Include="ModuloConvenios\Petitorio\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

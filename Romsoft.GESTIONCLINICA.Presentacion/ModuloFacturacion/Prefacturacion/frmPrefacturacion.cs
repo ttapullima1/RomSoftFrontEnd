@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloFacturacion
+namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloFacturacion.Prefacturacion
 {
-    public partial class frmListaFactura : Form
+    public partial class frmPrefacturacion : Form
     {
-        public frmListaFactura()
+        public frmPrefacturacion()
         {
             InitializeComponent();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

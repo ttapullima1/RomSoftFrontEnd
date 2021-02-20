@@ -31,5 +31,15 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision.HistoriaClinica
         {
             this.Close();
         }
+
+        private void btnFiltrar_Click(object sender, EventArgs e)
+        {
+            HistoriaClinica.frmFiltroHistoriaClinica frm = new HistoriaClinica.frmFiltroHistoriaClinica();
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                // 1 = Consulta por filtro
+                //InitialLoad(1);
+            }
+        }
     }
 }

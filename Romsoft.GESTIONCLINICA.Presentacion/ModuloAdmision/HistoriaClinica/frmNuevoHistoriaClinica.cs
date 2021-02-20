@@ -86,7 +86,12 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloAdmision.HistoriaClinica
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            HistoriaClinica.frmAtencion frm = new HistoriaClinica.frmAtencion();
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                // 0 = Consulta Todos
+                //    InitialLoad(0);
+            }
         }
 
         private void frmHistoriaClinica_Load(object sender, EventArgs e)

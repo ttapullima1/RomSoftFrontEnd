@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Drawing;
 
 
 namespace Romsoft.GESTIONCLINICA.Presentacion
@@ -215,6 +216,16 @@ namespace Romsoft.GESTIONCLINICA.Presentacion
             ModuloAdmision.HistoriaClinica.frmListaHistoriaClinica fm = new ModuloAdmision.HistoriaClinica.frmListaHistoriaClinica();
             fm.FormClosed += new FormClosedEventHandler(MostrarFormLogoAlCerrarForms);
             AbrirFormEnPanel(fm);
+        }
+
+        private void panel1_MouseLeave(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Silver;
+        }
+
+        private void panel1_MouseEnter(object sender, EventArgs e)
+        {
+            this.BackColor = Color.White;
         }
     }
 }

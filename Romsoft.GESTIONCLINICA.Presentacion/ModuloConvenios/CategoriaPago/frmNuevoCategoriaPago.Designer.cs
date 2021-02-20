@@ -172,7 +172,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.CategoriaPago
             // 
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.BackColor = System.Drawing.Color.AliceBlue;
             this.panel2.Controls.Add(this.lblTituloUuario);
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel2.Location = new System.Drawing.Point(1, 2);
@@ -386,7 +386,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.CategoriaPago
             this.btnCancelar.ForeColor = System.Drawing.Color.Black;
             this.btnCancelar.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelar.Image")));
             this.btnCancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelar.Location = new System.Drawing.Point(443, 322);
+            this.btnCancelar.Location = new System.Drawing.Point(443, 358);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(108, 26);
             this.btnCancelar.TabIndex = 10;
@@ -405,7 +405,7 @@ namespace Romsoft.GESTIONCLINICA.Presentacion.ModuloConvenios.CategoriaPago
             this.btnGuardar.ForeColor = System.Drawing.Color.Black;
             this.btnGuardar.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardar.Image")));
             this.btnGuardar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuardar.Location = new System.Drawing.Point(325, 322);
+            this.btnGuardar.Location = new System.Drawing.Point(325, 358);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(108, 26);
             this.btnGuardar.TabIndex = 9;
