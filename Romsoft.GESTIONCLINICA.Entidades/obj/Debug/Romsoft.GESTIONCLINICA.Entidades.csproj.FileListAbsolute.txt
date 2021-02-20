@@ -16,3 +16,8 @@ D:\04. Software\Romsoft\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidade
 D:\04. Software\Romsoft\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
 D:\04. Software\Romsoft\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
 D:\04. Software\Romsoft\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.csprojAssemblyReference.cache
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.csproj.CoreCompileInputs.cache
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Entidades\obj\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb

@@ -30,3 +30,12 @@ D:\04. Software\Romsoft\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Common\o
 D:\04. Software\Romsoft\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Common\obj\Debug\Romsoft.GESTIONCLINICA.Common.csproj.CopyComplete
 D:\04. Software\Romsoft\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Common\obj\Debug\Romsoft.GESTIONCLINICA.Common.dll
 D:\04. Software\Romsoft\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Common\obj\Debug\Romsoft.GESTIONCLINICA.Common.pdb
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Common\bin\Debug\Romsoft.GESTIONCLINICA.Common.dll
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Common\bin\Debug\Romsoft.GESTIONCLINICA.Common.pdb
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Common\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.dll
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Common\bin\Debug\Romsoft.GESTIONCLINICA.Entidades.pdb
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Common\obj\Debug\Romsoft.GESTIONCLINICA.Common.csprojAssemblyReference.cache
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Common\obj\Debug\Romsoft.GESTIONCLINICA.Common.csproj.CoreCompileInputs.cache
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Common\obj\Debug\Romsoft.GESTIONCLINICA.Common.csproj.CopyComplete
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Common\obj\Debug\Romsoft.GESTIONCLINICA.Common.dll
+D:\ROMSOFT-GIT\FrontEnd\RomSoftFrontEnd\Romsoft.GESTIONCLINICA.Common\obj\Debug\Romsoft.GESTIONCLINICA.Common.pdb
