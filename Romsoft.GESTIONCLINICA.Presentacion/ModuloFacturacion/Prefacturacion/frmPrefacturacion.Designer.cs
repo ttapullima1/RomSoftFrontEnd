@@ -162,7 +162,7 @@
             this.button4.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button4.Location = new System.Drawing.Point(174, 5);
+            this.button4.Location = new System.Drawing.Point(173, 5);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(52, 47);
             this.button4.TabIndex = 48;
@@ -338,7 +338,7 @@
             this.Total});
             this.dataGridView1.Location = new System.Drawing.Point(4, 303);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(748, 360);
+            this.dataGridView1.Size = new System.Drawing.Size(748, 339);
             this.dataGridView1.TabIndex = 2;
             // 
             // Tipo
@@ -655,7 +655,7 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Moneda:";
             // 
-            // frmListaFactura
+            // frmPrefacturacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -668,7 +668,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmListaFactura";
+            this.Name = "frmPrefacturacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmListaFactura";
             this.panel1.ResumeLayout(false);
